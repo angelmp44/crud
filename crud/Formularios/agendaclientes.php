@@ -17,7 +17,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Agenda de clientes</h1>
+		<h1>Agenda para clientes</h1>
 		<br>
 		<form  action="buscarcliente.php" method="get">
 		<input style="width :50%" name="buscador" class="form-control">
