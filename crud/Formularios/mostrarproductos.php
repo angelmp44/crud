@@ -19,6 +19,7 @@
 					<th>Código del proveedor</th>
 					<th>Nombre del producto</th>
 					<th>Tipo del producto</th>
+					<th>Cantidad del producto</th>
 					<th>Precio de venta</th>
                     <th>Precio de alquiler</th>
                     <th>Acciones</th>
