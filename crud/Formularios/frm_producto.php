@@ -61,6 +61,11 @@
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar producto" /> 
             </div>
+            <br>
+            <br>
+            <div>
+                <center><a class="botons" href="agendaproductos.php">Regresar</a></center>
+            </div> 
 
     </form> 
 
