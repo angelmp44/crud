@@ -1,0 +1,67 @@
+/* Estilos del formulario Proveedor */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url('Img/fondoproveedor.png');
+    background-size: 100%;
+}
+.formulario{
+    width: 400px;
+    background: rgba(13, 8, 88, 0.7);
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    font-size: 15px;
+    font-family: 'Krub', sans-serif;
+    border-radius: 10px;
+    color: #000000;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+}
+.formulario .etiqueta{
+    font-size: 18px;
+    font-family: 'Krub', sans-serif; 
+    color: #f1cc23;
+}
+.formulario .subtitulo{
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Krub', sans-serif; 
+    color: #ffd240;
+}
+.formulario p{
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Krub', sans-serif;
+}
+
+.formulario .botons{
+    position: center;
+    width: 100%;
+    background: #0e56dd;
+    padding: 15px;
+    font-size: 20px;
+    border: none;   
+    margin: auto;
+    font-family: 'Krub', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.formulario .botons:hover 
+{
+    cursor: pointer;
+}

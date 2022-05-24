@@ -1,0 +1,75 @@
+/* Estilos del formulario seguimiento Alquiler */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url('Img/fondoAlquiler.png');
+    background-size: 100%;
+}
+body img{
+ margin-top: -100px;
+ position: relative;
+ margin-left: 1600px
+}
+.formulario{
+    background: rgba(8, 8, 8, 0.6);
+    color: #000000;
+    width: 400px;   
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Krub', sans-serif; 
+    border-radius: 10px;
+    
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.formulario .etiqueta{
+    font-size: 15px;
+    font-family: 'Krub', sans-serif; 
+    color: #ffffff;
+}
+.formulario .subtitulo{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Krub', sans-serif; 
+    color: #ffffff;
+    text-align: center; 
+}
+.formulario p{
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: 'Krub', sans-serif;
+}
+
+.formulario .botons{
+   
+    background: #ecb80d;
+    color: rgb(0, 0, 0);
+    position: center;
+    width: 100%; 
+    padding: 20px;
+    border: none;   
+    margin: 16px 0;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    
+}
+
+.formulario .botons:hover 
+{
+    cursor: pointer;
+}

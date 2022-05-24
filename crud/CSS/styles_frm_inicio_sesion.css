@@ -1,0 +1,86 @@
+/* Estilos del Login */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url('../CSS/img/Fondoiniciosesion.jpg');
+    background-size: 100%;    
+}
+.form-register h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: 'Krub', sans-serif; 
+    color: #ffffff;
+    text-align: center;
+}
+.form-register{
+    width: 300px;
+    background: rgba(5, 7, 12, 0.40);
+    padding: 20px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Krub', sans-serif; 
+    border-radius: 5px;
+    color: #ffffff;
+    /*box-shadow: 0px 0px 40px #c0b791;*/
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.form-register p{
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: #949494;
+}
+.form-register a{
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+.form-register a:hover{
+    
+    text-decoration: underline;
+}
+.form-register .botons{
+    position: center;
+    width: 100%;
+    background: #000000;
+    padding: 15px;
+    border: none;   
+    margin: 16px 0;
+    font-family: 'Krub', sans-serif; 
+    color: rgb(255, 255, 255);
+}
+
+.form-register .botons:hover 
+{
+    cursor: pointer;
+}
+
+.titulo h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 1000px;
+    margin-bottom: 30px;
+    font-family: 'Krub', sans-serif; 
+    color: #ffffff;
+    text-align: center;
+    border: black;
+}
+.titulo h2{
+    font-size: 15px;
+    margin-left: 1000px;
+    margin-bottom: 15px; 
+    font-family: 'Krub', sans-serif; 
+    color: #ffffff;
+    text-align: center;
+}

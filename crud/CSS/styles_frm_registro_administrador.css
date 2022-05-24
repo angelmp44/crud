@@ -1,0 +1,85 @@
+/* Estilos del Registro de Usuario */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url('Img/57278-construccion.png');
+    background-size: 100%;
+}
+.formulario{
+    width: 400px;
+    background: rgba(87, 3, 3, 0.6);
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Krub', sans-serif;
+    border-radius: 10px;
+    color: #000000;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.formulario .etiqueta{
+    font-size: 15px;
+    font-family: 'Krub', sans-serif;
+    color: #ffffff;
+}
+.formulario .cargo{
+    font-size: 14px;
+    font-family: 'Krub', sans-serif;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.formulario .subtitulo{
+    font-size: 20px;
+    font-family: 'Krub', sans-serif;
+    color: #ffffff; 
+    position: center;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.formulario p{
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    font-family: 'Krub', sans-serif;
+}
+.formulario a{
+    color: rgb(255, 255, 255);
+    font-family: 'Krub', sans-serif;
+}
+
+.formulario .botons{
+    position: center;
+    width: 100%;
+    background: #8d1f1f;
+    padding: 20px;
+    border: none;   
+    margin: 16px 0;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.formulario .botons:hover 
+{
+    cursor: pointer;
+}
+
+
+

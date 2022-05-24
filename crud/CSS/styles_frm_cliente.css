@@ -1,0 +1,67 @@
+/* Estilos del formulario cliente */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-image: url('../CSS/img/fondo-cliente.png');
+    background-size: 100%;
+}
+.formulario{
+    width: 400px;
+    background: rgba(87, 59, 14, 0.9);
+    padding: 20px;
+    margin: auto;
+    margin-top: 25px;
+    font-family: 'Krub', sans-serif;
+    border-radius: 10px;
+    color: #000000;
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.formulario .etiqueta{
+    font-size: 15px;
+    font-family: 'Krub', sans-serif;
+    color: #ffa640;
+}
+.formulario .subtitulo{
+    font-size: 25px;
+    font-family: 'Krub', sans-serif;
+    color: #ffa640;
+}
+.formulario p{
+    height: 20px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    color: #aa4040;
+    font-family: 'Krub', sans-serif;
+}
+
+
+.formulario .botons{
+    position: center;
+    width: 100%;
+    background: #be9305;
+    padding: 20px;
+    border: none;   
+    margin: 16px 0;
+    font-family: 'Krub', sans-serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.formulario .botons:hover 
+{
+    cursor: pointer;
+}
+
