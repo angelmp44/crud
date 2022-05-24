@@ -18,4 +18,5 @@ if($resultado){
 else{
     "error al registrar producto";
 }
+header('location: /crud/crud/Formularios/mostrarproductos.php')
 ?>
