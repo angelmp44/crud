@@ -44,6 +44,11 @@
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar Proveedor" /> 
             </div>
+            <br>
+            <br>
+            <div>
+                <center><a class="botons" href="agendaproveedor.php">Regresar</a></center>
+            </div> 
 
     </form> 
 

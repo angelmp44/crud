@@ -7,7 +7,7 @@
 
 <center>
 		<br>
-		<h1> Lista de contactos </h1>
+		<h1> Lista de clientes </h1>
 		<a href="frm_cliente.php" class="btn btn-outline-danger">Ingresar Cliente Nuevo</a>
 		<a href="agendaclientes.php" class="btn btn-outline-warning">Regresar</a>
 		<br>
