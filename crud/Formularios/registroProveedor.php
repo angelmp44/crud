@@ -18,4 +18,6 @@ if($resultado){
 else{
     echo "error al registrar proveedor";
 }
+
+header('location: /crud/crud/Formularios/mostrarproveedor.php')
 ?>
