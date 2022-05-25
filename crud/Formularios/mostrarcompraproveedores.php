@@ -10,7 +10,10 @@
 		<h1> Listado de compras a proveedores </h1>
 		<a href="frm_compra_proveedores.php" class="btn btn-outline-danger">Ingresar Compra Nueva</a>
 		<a href="agendacompraproveedor.php" class="btn btn-outline-warning">Regresar</a>
-		<br>	
+		<br>
+		<br>
+		<a href="../pag_administrador/admin.html" class="btn btn-outline-info">Página administrador</a>
+		<br>
 		<br>
 		<table class="table">
 			<thead>

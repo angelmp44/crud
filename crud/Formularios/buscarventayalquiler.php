@@ -12,6 +12,9 @@
 		<a href="agendaventayalquiler.php" class="btn btn-outline-warning">Regresar</a>
 		<br>
 		<br>
+		<a href="../pag_administrador/admin.html" class="btn btn-outline-info">Página administrador</a>
+		<br>
+		<br>
 		<table class="table">
 			<thead>
 				<tr>
