@@ -15,8 +15,8 @@ $conexion =new mysqli("localhost","root","","construequipos")
 			`id_proveedor` = '$id_proveedor',
 			`nombre_producto` = '$nombre_producto', 
 			`tipo_producto` = '$tipo_producto', 
-            `cant_producto` = '$cant_producto'
-            `precio_venta` = '$precio_venta'
+            `cant_producto` = '$cant_producto',
+            `precio_venta` = '$precio_venta',
             `precio_alquiler_dia` = '$precio_alquiler_dia'
 
 			 
