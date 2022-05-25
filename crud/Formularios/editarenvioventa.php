@@ -1,29 +1,29 @@
 <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
-<title>Registro Envios | H&D Construequipos</title>
+<title>Registro Proveedor | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 <?php
 $conexion =new mysqli("localhost","root","","construequipos")
-            or die("no hay conexion".mysqli_connect_error());
+			or die("no hay conexion".mysqli_connect_error());
 ?>
-    <?php
-    $id_envio_venta = $_GET['id_envio_venta'];
+	<?php
+	$id_envio_venta = $_GET['id_envio_venta'];
 
-    $sql="SELECT * FROM `envíos_venta` where id_proveedor=$envíos_venta";
+	$sql="SELECT * FROM `envíos_venta` where id_envio_venta=$id_envio_venta";
 
-    $result =mysqli_query($conexion, $sql);
-    while ($fila= mysqli_fetch_array($result)) {
-    ?>
-     
+	$result =mysqli_query($conexion, $sql);
+	while ($fila= mysqli_fetch_array($result)) {
+	?>
+	 
 
-     
+	 
 
 <form action="<?='actualizarenvioventa.php?id_envio_venta='.($fila["id_envio_venta"])?>" method="post" class="formulario">
-    
-<P><legend class="subtitulo">Actualizar Envío</legend></P> 
+	
+<P><legend class="subtitulo">Registrar Envío</legend></P> 
 
 <div>
                 <label class="etiqueta">id del envío</label>
-                <input class="controls" type="number" name="id_envio_venta" placeholder="Ingresa el id de la venta" value="<?php echo $fila['id_envio_venta'] ?>" >
+                <input class="controls" type="number" name="id_envio_venta" placeholder="Ingresa el id del envío" value="<?php echo $fila['id_envio_venta'] ?>" >
             </div>
 
 
@@ -64,9 +64,8 @@ $conexion =new mysqli("localhost","root","","construequipos")
     </form> 
     <img src="../CSS/img/Logo.png" style="width: 150px">
 <?php
-    }
-?>
-    
+	}
+?> 
 
 
 
