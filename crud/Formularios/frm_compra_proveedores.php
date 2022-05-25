@@ -43,6 +43,11 @@
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar Compra" /> 
             </div>
+            <br>
+            <br>
+            <div>
+                <center><a class="botons" href="agendaclientes.php">Regresar</a></center>
+            </div> 
 
         
     </form> 
