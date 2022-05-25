@@ -17,7 +17,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Agenda Proveedores</h1>
+		<h1>Gestion de Proveedores</h1>
 		<br>
 		<form  action="buscarproveedor.php" method="get">
 		<input style="width :50%" name="buscador" class="form-control">

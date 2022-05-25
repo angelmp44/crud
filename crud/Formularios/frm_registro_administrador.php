@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,7 +59,7 @@
 
                     <div>
                         <label class="etiqueta">Teléfono</label>
-                        <input class="controls" type="tel" name="tel_admin" placeholder="Ingresa tu telefono">
+                        <input class="controls" type="number" name="tel_admin" placeholder="Ingresa tu telefono">
                     </div> 
 
                     <div>
