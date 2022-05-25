@@ -18,4 +18,5 @@ if($resultado){
 else{
     echo "error al registrar envio";
 }
+header('location: /crud/crud/Formularios/mostrarenvioventa.php')
 ?>

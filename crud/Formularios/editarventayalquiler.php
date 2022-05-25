@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../CSS/styles_frm_proveedor.css">
+<link rel="stylesheet" type="text/css" href="../CSS/styles_frm_venta_y_alquiler.css">
 <title>Venta y Alquiler | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 <?php

@@ -48,6 +48,11 @@
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar" /> 
             </div>
+            <br>
+            <br>
+            <div>
+                <center><a class="botons" href="agendaenvioventa.php">Regresar</a></center>
+            </div> 
 
     </form> 
    
