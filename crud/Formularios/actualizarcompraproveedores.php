@@ -11,7 +11,7 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 	$sql ="UPDATE `compra_proveedores` SET 
 			`id_proveedor` = '$id_proveedor', 
-			`id_producto` = '$id_productor', 
+			`id_producto` = '$id_producto', 
 			`cant_producto_compra` = '$cant_producto_compra', 
             `valor_compra` = '$valor_compra'
 			 
