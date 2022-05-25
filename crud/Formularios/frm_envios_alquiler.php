@@ -53,6 +53,11 @@
             <div>
                 <input class="botons" type="submit" name="enviar"value="VALIDAR" /> 
             </div>
+            <br>
+            <br>
+            <div>
+                <center><a class="botons" href="agendaenvioalquiler.php">Regresar</a></center>
+            </div> 
 
        
     </form> 

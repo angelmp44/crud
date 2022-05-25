@@ -9,8 +9,11 @@
         <h1>Lista de Clientes </h1>
         <a href="../Formularios/frm_cliente.php" class="btn btn-outline-danger">Ingresar Cliente Nuevo</a>
         <a href="agendaclientes.php" class="btn btn-outline-warning">Regresar</a>
-    <br>
-    <br>
+        <br>
+		<br>
+		<a href="../pag_administrador/admin.html" class="btn btn-outline-info">Página administrador</a>
+		<br>
+		<br>
   <table  class="table">
   <tr>
 		<th>Documento del Cliente</th>

@@ -17,4 +17,5 @@ if($resultado){
 else{
     echo "error al registrar compra a proveedor";
 }
+header('location: /crud/crud/Formularios/mostrarcompraproveedores.php')
 ?>

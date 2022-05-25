@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="../CSS/styles_frm_proveedor.css">
+<link rel="stylesheet" type="text/css" href="../CSS/styles_frm_producto.css">
 <title>Registro Producto | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 <?php
