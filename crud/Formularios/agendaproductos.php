@@ -17,7 +17,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Listado de Productos</h1>
+		<h1>Gestion de Productos</h1>
 		<br>
 		<form  action="buscarproductos.php" method="get">
 		<input style="width :50%" name="buscador" class="form-control">

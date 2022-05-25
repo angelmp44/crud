@@ -29,6 +29,7 @@
         <p><a href="../Formularios/frm_registro_administrador.php">Registrarse</a></p>
 
         <input class="botons" type="submit" name="" value="INICIAR SESION">
+        <p><a href="../pag_principal/principal.html">Volver</a></p>
     </form>  
 
 </body>
