@@ -31,5 +31,5 @@ $conexion =new mysqli("localhost","root","","construequipos")
 				echo mysqli_error($conexion);
 			}
 	}
-	header('location: /crud/crud/Formularios/mostrarventayalquiler.php')
+	header('location: mostrarventayalquiler.php')
 ?>

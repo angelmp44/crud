@@ -10,191 +10,128 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> 
 
-<link href="../pag_administrador/css/styles_pagina_principal.css" rel="stylesheet">
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 <link rel="shortcut icon" href="../CSS/img/Logo.png"> 
 
 </head>
 <body>
-<!---------------------- Barra de navegación --------------------------->
 
+ 
+<!---------------------- Barra de navegación -------------------------->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">H&D Construequipos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./admin.html">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="../Formularios/agendaclientes.php">Clientes</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaproductos.php">Productos</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaventayalquiler.php">Ventas y Alquiler</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaproveedor.php">Proveedores</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendacompraproveedor.php">Compras a Proveedores</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaenvioalquiler.php">Envíos productos alquiler</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaenvioventa.php">Envíos productos venta</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mi cuenta
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Editar perfil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../pag_principal/principal.html">Cerrar sesión</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-danger" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-<div class="nav-bg">
-    <nav class="navegacion-principal contenedor">
-        <a href="../Formularios/agendaventayalquiler.php" target="_blank">Ventas y Alquileres</a>
-        <a href="../Formularios/agendaenvioventa.php" target="_blank">Envíos por ventas</a>
-        <a href="../Formularios/agendaenvioalquiler.php" target="_blank">Envíos por alquiler</a>
-        <a href="../Formularios/agendacompraproveedor.php" target="_blank">Compras a Proveedores</a>
-        <a href="../Formularios/agendaproductos.php" target="_blank">Productos</a>
-        <a href="../Formularios/agendaproveedor.php" target="_blank">Proveedores</a>
-        <a href="../Formularios/agendaclientes.php" target="_blank">Clientes</a> 
-    </nav>
+<!--Inicio-->
+<div class="card mb-3;  " style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;">
+    <img src="../CSS/img/inicio4.jpeg" class="card-img-top; "  >
+    <div class="card-body">
+      <h5 class="card-title">Florencia, Caqueta</h5>
+      <p class="card-text">Contactanos para obtener servicio personalizado</p>
+      <p class="card-text"><small class="text-muted">H&D CONSTRUEQUIPOS</small></p>
+    </div>
 </div>
-
 
 <!---------------------- Servicios --------------------------->
 
-<main class="contenedor sombra">
+    <div class="servicios">
+        <h1 style="text-align:left; font-size: 25px; margin-top: 15px; margin-left: 30px;"> Frecuentes </h1>
+        <div class="card-group">
+            <div class="card border-dark" style="width: 15%; margin-left: 10px; margin-top: 20px; text-align: center">
+                <div class="card-header">Sobre nuestros proveedores</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Calidad</h5>
+                  <p class="card-text">
+                      Nuestros productos son de la mejor calidad, por ello todos nuestros proveedores estan
+                      certificados lo que garantiza un exelente rendimiento de los mismos.
+                  </p>
+                </div>
+            </div>
+            <div class="card border-dark" style="width: 15%;  margin-top: 20px; text-align: center">
+                <div class="card-header">Envios</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Confiabilidad</h5>
+                  <p class="card-text">Garantizamos la llegada de sus productos a la puerta de su casa o empresa</p>
+                </div>
+            </div>
+            <div class="card border-dark" style="width: 15%; margin-top: 20px; margin-right: 10px; text-align: center">
+                <div class="card-header">Sobre nuestros clientes</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Eficiencia</h5>
+                  <p class="card-text">Nuestros clientes saben que son lo primero para nosotros, por ello confian en nuestros productos y servicios
+                      por encima de otros competidores.
+                  </p>
+                </div>
 
-        <div class="servicios">
-
-            <section class="servicio">
-                <h3>Clientes</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;">    <path d="M 56 21.900391 C 43.3 21.900391 33 32.200391 33 44.900391 C 33 46.600391 34.3 47.900391 36 47.900391 L 41.199219 47.900391 L 41.400391 47.900391 C 52.900391 47.900391 64.6 47.900391 73 40.400391 L 73 40.5 C 73.4 40.1 73.799609 39.800391 74.099609 39.400391 C 75.199609 38.200391 77.100781 37.999609 78.300781 39.099609 C 79.600781 40.199609 79.7 42.2 78.5 43.5 L 77.099609 44.900391 C 75.799609 46.200391 76.3 48.399609 78 49.099609 C 79 49.499609 80.099219 49.700781 81.199219 49.800781 C 82.699219 50.000781 83.900391 51.200781 83.900391 52.800781 L 83.900391 59.599609 C 84.000391 70.099609 76.000391 79.2 65.400391 80 C 53.800391 80.8 44.1 71.599609 44 60.099609 C 44 58.499609 42.799219 57.1 41.199219 57 C 39.499219 56.9 38 58.3 38 60 C 38 74.3 49.7 86 64 86 C 77.9 86 89.3 75.100781 90 61.300781 L 90 61 L 90 47 L 90 44 L 90 43 C 90 35.8 84.599609 29.899609 77.599609 29.099609 L 77.199219 28.5 C 74.299219 24.4 69.5 21.900391 64.5 21.900391 L 56 21.900391 z M 64 91 C 47.6 91 32.400781 99.899609 24.300781 114.09961 C 23.500781 115.49961 24.000391 117.39922 25.400391 118.19922 C 25.900391 118.49922 26.400391 118.59961 26.900391 118.59961 C 27.900391 118.59961 29 118.09961 29.5 117.09961 C 36.6 104.69961 49.8 97 64 97 C 78.2 97 91.4 104.69961 98.5 117.09961 C 99.3 118.49961 101.19961 118.99922 102.59961 118.19922 C 103.99961 117.39922 104.49922 115.49961 103.69922 114.09961 C 95.599219 99.899609 80.4 91 64 91 z"></path></svg>
-                        </div>
-
-                            <p>ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-                            </section>
-
-
-            <section class="servicio">
-                <h3>Productos</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;">    <path d="M 70 18.074219 C 69.225 18.074219 68.450391 18.350391 67.900391 18.900391 L 14.099609 72.599609 C 12.899609 73.799609 12.899609 75.700781 14.099609 76.800781 L 22.599609 85.300781 C 23.199609 85.900781 23.899219 86.199219 24.699219 86.199219 C 25.499219 86.199219 26.300781 85.900781 26.800781 85.300781 L 70 42.199219 L 102 74.199219 L 102 114.5 C 99.1 115.5 96.899219 118 96.199219 121 L 84 121 L 84 80 C 84 78.3 82.7 77 81 77 L 59 77 C 57.3 77 56 78.3 56 80 L 56 121 L 38 121 L 38 94 C 38 92.3 36.7 91 35 91 C 33.3 91 32 92.3 32 94 L 32 101.40039 C 27.1 102.60039 23.300781 106.40078 22.300781 111.30078 C 17.400781 112.30078 13.500391 116.2 12.400391 121 L 4 121 C 2.3 121 1 122.3 1 124 C 1 125.7 2.3 127 4 127 L 99 127 C 100.7 127 102 125.7 102 124 L 102 123 C 102 121.3 103.3 120 105 120 C 106.7 120 108 121.3 108 123 L 108 124 C 108 125.7 109.3 127 111 127 L 114 127 C 115.7 127 117 125.7 117 124 C 117 122.3 115.7 121 114 121 L 113.80078 121 C 113.10078 118 110.9 115.5 108 114.5 L 108 80.199219 L 113.09961 85.300781 C 113.69961 85.900781 114.39922 86.199219 115.19922 86.199219 C 115.99922 86.199219 116.80078 85.900781 117.30078 85.300781 L 125.80078 76.800781 C 127.00078 75.600781 127.00078 73.699609 125.80078 72.599609 L 72.099609 18.900391 C 71.549609 18.350391 70.775 18.074219 70 18.074219 z M 70 25.300781 L 119.5 74.800781 L 115.30078 79 L 72.099609 35.900391 C 71.499609 35.300391 70.8 35 70 35 C 69.2 35 68.500391 35.300391 67.900391 35.900391 L 24.699219 79 L 20.5 74.800781 L 70 25.300781 z M 64 101 C 65.7 101 67 102.3 67 104 C 67 105.7 65.7 107 64 107 C 62.3 107 61 105.7 61 104 C 61 102.3 62.3 101 64 101 z M 32 107.69922 L 32 121 L 18.699219 121 C 19.799219 118.6 22.2 117 25 117 C 26.7 117 28 115.7 28 114 C 28 111.2 29.6 108.79922 32 107.69922 z M 124 121 A 3 3 0 0 0 121 124 A 3 3 0 0 0 124 127 A 3 3 0 0 0 127 124 A 3 3 0 0 0 124 121 z"></path></svg>
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;">    <path d="M15,109.8l48,17c0,0,0,0,0,0c0.1,0,0.2,0.1,0.3,0.1c0.2,0.1,0.5,0.1,0.7,0.1c0.2,0,0.3,0,0.5,0c0,0,0,0,0,0c0,0,0,0,0.1,0 c0.1,0,0.3-0.1,0.4-0.1c0,0,0,0,0,0l48-17c1.2-0.4,2-1.6,2-2.8V73.4l10-3.5c0.8-0.3,1.5-1,1.8-1.8s0.2-1.8-0.3-2.6l-12-20 c0,0-0.1-0.1-0.1-0.1c0-0.1-0.1-0.1-0.1-0.2c0,0,0,0,0,0c0-0.1-0.1-0.1-0.1-0.2c0,0,0,0,0-0.1c-0.1-0.1-0.1-0.1-0.2-0.2 c0,0-0.1-0.1-0.1-0.1c0,0-0.1-0.1-0.1-0.1c0,0-0.1,0-0.1,0c0,0-0.1-0.1-0.1-0.1c-0.1-0.1-0.2-0.1-0.3-0.1c-0.1,0-0.1-0.1-0.2-0.1 c0,0,0,0,0,0c0,0,0,0,0,0l-48-17c0,0,0,0-0.1,0c0,0-0.1,0-0.1,0c0,0-0.1,0-0.1,0c-0.1,0-0.1,0-0.2,0c0,0,0,0,0,0c0,0,0,0,0,0 c-0.1,0-0.1,0-0.2,0c-0.1,0-0.1,0-0.2,0c-0.1,0-0.2,0-0.4,0c-0.1,0-0.1,0-0.2,0c-0.2,0-0.4,0.1-0.5,0.1l-48,17 c-0.2,0.1-0.3,0.1-0.5,0.2c0,0-0.1,0.1-0.1,0.1c-0.1,0.1-0.2,0.1-0.3,0.2c0,0-0.1,0.1-0.1,0.1c-0.1,0.1-0.2,0.1-0.2,0.2 c0,0-0.1,0.1-0.1,0.1c-0.1,0.1-0.1,0.2-0.2,0.2c0,0,0,0.1-0.1,0.1l-12,20c-0.7,1.1-0.6,2.5,0.2,3.4C2.3,69.6,3.1,70,4,70 c0.3,0,0.7-0.1,1-0.2l8-2.8v40C13,108.3,13.8,109.4,15,109.8z M119.5,65.4l-42.2,15l-8.9-14.8l42.2-15L119.5,65.4z M67,34.2L103,47 L67,59.8V34.2z M67,74.8l6.4,10.7C74,86.5,75,87,76,87c0.3,0,0.7-0.1,1-0.2l32-11.3v29.4l-42,14.9V74.8z M19,51.2l42,14.9v53.6 l-42-14.9V51.2z"></path></svg>
-                        </div>
-
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-            </section>
-            <section class="servicio">
-                <h3>Ventas y Alquiler</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;"><path d="M 58 1 C 56.3 1 55 2.3 55 4 L 55 37 C 55 44.2 49.2 50 42 50 L 17 50 C 15.3 50 14 51.3 14 53 L 14 124 C 14 125.7 15.3 127 17 127 L 18 127 C 18.8 127 19.599609 126.69961 20.099609 126.09961 L 28 118.19922 L 35.900391 126.09961 C 37.100391 127.29961 38.999609 127.29961 40.099609 126.09961 L 48 118.19922 L 55.900391 126.09961 C 57.100391 127.29961 58.999609 127.29961 60.099609 126.09961 L 68 118.19922 L 75.900391 126.09961 C 77.100391 127.29961 78.999609 127.29961 80.099609 126.09961 L 88 118.19922 L 95.900391 126.09961 C 96.500391 126.69961 97.3 127 98 127 C 98.7 127 99.499609 126.69961 100.09961 126.09961 L 110.09961 116.09961 C 110.69961 115.49961 111 114.8 111 114 L 111 11 C 111 5.5 106.5 1 101 1 L 58 1 z M 45.878906 7.7460938 C 45.344531 7.7742188 44.800781 7.9507812 44.300781 8.3007812 C 43.300781 9.0007812 42.4 9.7003906 41.5 10.400391 L 16.400391 31.900391 C 14.400391 33.600391 13.500781 36.499609 14.300781 39.099609 C 15.200781 41.999609 17.999609 43.900391 21.099609 43.900391 L 39 43.900391 C 44.5 43.900391 49 39.400391 49 33.900391 L 49 10.699219 C 49 8.8992188 47.482031 7.6617187 45.878906 7.7460938 z M 48.410156 71.837891 C 52.386108 71.773438 55.269531 75.3125 57.800781 78.5 C 59.600781 80.7 61.900391 83.500391 63.400391 83.400391 C 64.500391 83.300391 65.900781 81.899609 67.300781 80.599609 C 69.500781 78.499609 72.299219 75.799219 76.199219 76.199219 C 77.299219 76.299219 78.4 76.599219 79.5 77.199219 C 80.9 77.899219 81.499219 79.799219 80.699219 81.199219 C 79.999219 82.699219 78.199219 83.3 76.699219 82.5 C 76.199219 82.3 75.8 82.099609 75.5 82.099609 C 74.4 81.999609 72.900391 83.400391 71.400391 84.900391 C 69.400391 86.800391 67.2 89.000781 64 89.300781 L 63.199219 89.300781 C 58.799219 89.300781 55.799609 85.499219 53.099609 82.199219 C 51.799609 80.499219 49.799609 78.100781 48.599609 77.800781 C 47.599609 78.700781 45.400391 81.700781 43.900391 83.800781 C 43.300391 84.600781 42.799219 85.399219 42.199219 86.199219 C 41.199219 87.499219 39.3 87.800781 38 86.800781 C 36.7 85.800781 36.400391 83.899609 37.400391 82.599609 C 38.000391 81.799609 38.499609 81.100781 39.099609 80.300781 C 42.999609 74.800781 44.999609 72.200391 47.599609 71.900391 C 47.874609 71.862891 48.145093 71.842187 48.410156 71.837891 z M 90 83 C 91.7 83 93 84.3 93 86 C 93 87.7 91.7 89 90 89 C 88.3 89 87 87.7 87 86 C 87 84.3 88.3 83 90 83 z"></path></svg>
-                        </div>
-
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Proveedores</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;"><path d="M 58 1 C 56.3 1 55 2.3 55 4 L 55 37 C 55 44.2 49.2 50 42 50 L 17 50 C 15.3 50 14 51.3 14 53 L 14 124 C 14 125.7 15.3 127 17 127 L 18 127 C 18.8 127 19.599609 126.69961 20.099609 126.09961 L 28 118.19922 L 35.900391 126.09961 C 37.100391 127.29961 38.999609 127.29961 40.099609 126.09961 L 48 118.19922 L 55.900391 126.09961 C 57.100391 127.29961 58.999609 127.29961 60.099609 126.09961 L 68 118.19922 L 75.900391 126.09961 C 77.100391 127.29961 78.999609 127.29961 80.099609 126.09961 L 88 118.19922 L 95.900391 126.09961 C 96.500391 126.69961 97.3 127 98 127 C 98.7 127 99.499609 126.69961 100.09961 126.09961 L 110.09961 116.09961 C 110.69961 115.49961 111 114.8 111 114 L 111 11 C 111 5.5 106.5 1 101 1 L 58 1 z M 45.878906 7.7460938 C 45.344531 7.7742188 44.800781 7.9507812 44.300781 8.3007812 C 43.300781 9.0007812 42.4 9.7003906 41.5 10.400391 L 16.400391 31.900391 C 14.400391 33.600391 13.500781 36.499609 14.300781 39.099609 C 15.200781 41.999609 17.999609 43.900391 21.099609 43.900391 L 39 43.900391 C 44.5 43.900391 49 39.400391 49 33.900391 L 49 10.699219 C 49 8.8992188 47.482031 7.6617187 45.878906 7.7460938 z M 48.410156 71.837891 C 52.386108 71.773438 55.269531 75.3125 57.800781 78.5 C 59.600781 80.7 61.900391 83.500391 63.400391 83.400391 C 64.500391 83.300391 65.900781 81.899609 67.300781 80.599609 C 69.500781 78.499609 72.299219 75.799219 76.199219 76.199219 C 77.299219 76.299219 78.4 76.599219 79.5 77.199219 C 80.9 77.899219 81.499219 79.799219 80.699219 81.199219 C 79.999219 82.699219 78.199219 83.3 76.699219 82.5 C 76.199219 82.3 75.8 82.099609 75.5 82.099609 C 74.4 81.999609 72.900391 83.400391 71.400391 84.900391 C 69.400391 86.800391 67.2 89.000781 64 89.300781 L 63.199219 89.300781 C 58.799219 89.300781 55.799609 85.499219 53.099609 82.199219 C 51.799609 80.499219 49.799609 78.100781 48.599609 77.800781 C 47.599609 78.700781 45.400391 81.700781 43.900391 83.800781 C 43.300391 84.600781 42.799219 85.399219 42.199219 86.199219 C 41.199219 87.499219 39.3 87.800781 38 86.800781 C 36.7 85.800781 36.400391 83.899609 37.400391 82.599609 C 38.000391 81.799609 38.499609 81.100781 39.099609 80.300781 C 42.999609 74.800781 44.999609 72.200391 47.599609 71.900391 C 47.874609 71.862891 48.145093 71.842187 48.410156 71.837891 z M 90 83 C 91.7 83 93 84.3 93 86 C 93 87.7 91.7 89 90 89 C 88.3 89 87 87.7 87 86 C 87 84.3 88.3 83 90 83 z"></path></svg>
-                        </div>
-
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-            </section>
-
-            <section class="servicio">
-                <h3>Alquiler</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;"><path d="M 58 1 C 56.3 1 55 2.3 55 4 L 55 37 C 55 44.2 49.2 50 42 50 L 17 50 C 15.3 50 14 51.3 14 53 L 14 124 C 14 125.7 15.3 127 17 127 L 18 127 C 18.8 127 19.599609 126.69961 20.099609 126.09961 L 28 118.19922 L 35.900391 126.09961 C 37.100391 127.29961 38.999609 127.29961 40.099609 126.09961 L 48 118.19922 L 55.900391 126.09961 C 57.100391 127.29961 58.999609 127.29961 60.099609 126.09961 L 68 118.19922 L 75.900391 126.09961 C 77.100391 127.29961 78.999609 127.29961 80.099609 126.09961 L 88 118.19922 L 95.900391 126.09961 C 96.500391 126.69961 97.3 127 98 127 C 98.7 127 99.499609 126.69961 100.09961 126.09961 L 110.09961 116.09961 C 110.69961 115.49961 111 114.8 111 114 L 111 11 C 111 5.5 106.5 1 101 1 L 58 1 z M 45.878906 7.7460938 C 45.344531 7.7742188 44.800781 7.9507812 44.300781 8.3007812 C 43.300781 9.0007812 42.4 9.7003906 41.5 10.400391 L 16.400391 31.900391 C 14.400391 33.600391 13.500781 36.499609 14.300781 39.099609 C 15.200781 41.999609 17.999609 43.900391 21.099609 43.900391 L 39 43.900391 C 44.5 43.900391 49 39.400391 49 33.900391 L 49 10.699219 C 49 8.8992188 47.482031 7.6617187 45.878906 7.7460938 z M 48.410156 71.837891 C 52.386108 71.773438 55.269531 75.3125 57.800781 78.5 C 59.600781 80.7 61.900391 83.500391 63.400391 83.400391 C 64.500391 83.300391 65.900781 81.899609 67.300781 80.599609 C 69.500781 78.499609 72.299219 75.799219 76.199219 76.199219 C 77.299219 76.299219 78.4 76.599219 79.5 77.199219 C 80.9 77.899219 81.499219 79.799219 80.699219 81.199219 C 79.999219 82.699219 78.199219 83.3 76.699219 82.5 C 76.199219 82.3 75.8 82.099609 75.5 82.099609 C 74.4 81.999609 72.900391 83.400391 71.400391 84.900391 C 69.400391 86.800391 67.2 89.000781 64 89.300781 L 63.199219 89.300781 C 58.799219 89.300781 55.799609 85.499219 53.099609 82.199219 C 51.799609 80.499219 49.799609 78.100781 48.599609 77.800781 C 47.599609 78.700781 45.400391 81.700781 43.900391 83.800781 C 43.300391 84.600781 42.799219 85.399219 42.199219 86.199219 C 41.199219 87.499219 39.3 87.800781 38 86.800781 C 36.7 85.800781 36.400391 83.899609 37.400391 82.599609 C 38.000391 81.799609 38.499609 81.100781 39.099609 80.300781 C 42.999609 74.800781 44.999609 72.200391 47.599609 71.900391 C 47.874609 71.862891 48.145093 71.842187 48.410156 71.837891 z M 90 83 C 91.7 83 93 84.3 93 86 C 93 87.7 91.7 89 90 89 C 88.3 89 87 87.7 87 86 C 87 84.3 88.3 83 90 83 z"></path></svg>
-                        </div>
-
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-            </section>
-            <section class="servicio">
-                <h3>Envíos</h3>
-                    <div class="iconos">
-
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                        width="64" height="64"
-                        viewBox="0 0 128 128"
-                        style=" fill:#000000;"><path d="M 58 1 C 56.3 1 55 2.3 55 4 L 55 37 C 55 44.2 49.2 50 42 50 L 17 50 C 15.3 50 14 51.3 14 53 L 14 124 C 14 125.7 15.3 127 17 127 L 18 127 C 18.8 127 19.599609 126.69961 20.099609 126.09961 L 28 118.19922 L 35.900391 126.09961 C 37.100391 127.29961 38.999609 127.29961 40.099609 126.09961 L 48 118.19922 L 55.900391 126.09961 C 57.100391 127.29961 58.999609 127.29961 60.099609 126.09961 L 68 118.19922 L 75.900391 126.09961 C 77.100391 127.29961 78.999609 127.29961 80.099609 126.09961 L 88 118.19922 L 95.900391 126.09961 C 96.500391 126.69961 97.3 127 98 127 C 98.7 127 99.499609 126.69961 100.09961 126.09961 L 110.09961 116.09961 C 110.69961 115.49961 111 114.8 111 114 L 111 11 C 111 5.5 106.5 1 101 1 L 58 1 z M 45.878906 7.7460938 C 45.344531 7.7742188 44.800781 7.9507812 44.300781 8.3007812 C 43.300781 9.0007812 42.4 9.7003906 41.5 10.400391 L 16.400391 31.900391 C 14.400391 33.600391 13.500781 36.499609 14.300781 39.099609 C 15.200781 41.999609 17.999609 43.900391 21.099609 43.900391 L 39 43.900391 C 44.5 43.900391 49 39.400391 49 33.900391 L 49 10.699219 C 49 8.8992188 47.482031 7.6617187 45.878906 7.7460938 z M 48.410156 71.837891 C 52.386108 71.773438 55.269531 75.3125 57.800781 78.5 C 59.600781 80.7 61.900391 83.500391 63.400391 83.400391 C 64.500391 83.300391 65.900781 81.899609 67.300781 80.599609 C 69.500781 78.499609 72.299219 75.799219 76.199219 76.199219 C 77.299219 76.299219 78.4 76.599219 79.5 77.199219 C 80.9 77.899219 81.499219 79.799219 80.699219 81.199219 C 79.999219 82.699219 78.199219 83.3 76.699219 82.5 C 76.199219 82.3 75.8 82.099609 75.5 82.099609 C 74.4 81.999609 72.900391 83.400391 71.400391 84.900391 C 69.400391 86.800391 67.2 89.000781 64 89.300781 L 63.199219 89.300781 C 58.799219 89.300781 55.799609 85.499219 53.099609 82.199219 C 51.799609 80.499219 49.799609 78.100781 48.599609 77.800781 C 47.599609 78.700781 45.400391 81.700781 43.900391 83.800781 C 43.300391 84.600781 42.799219 85.399219 42.199219 86.199219 C 41.199219 87.499219 39.3 87.800781 38 86.800781 C 36.7 85.800781 36.400391 83.899609 37.400391 82.599609 C 38.000391 81.799609 38.499609 81.100781 39.099609 80.300781 C 42.999609 74.800781 44.999609 72.200391 47.599609 71.900391 C 47.874609 71.862891 48.145093 71.842187 48.410156 71.837891 z M 90 83 C 91.7 83 93 84.3 93 86 C 93 87.7 91.7 89 90 89 C 88.3 89 87 87.7 87 86 C 87 84.3 88.3 83 90 83 z"></path></svg>
-                        </div>
-
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo in aliquam quis unde placeat quos. Debitis quo eum magnam vitae fuga, illum autem! Natus modi deserunt nemo cupiditate amet!</p>
-            </section>
+                            
         </div>  
 
-   
-  
-<!---------------------- Contáctanos --------------------------->
-
-<section>
-  
-
-        <form class="formulario">
-            <fieldset>
-                <legend>Escríbenos llenando todos los campos</legend>
-
-                    <div class="contenedor-campos"> 
-
-                        <div class="campo">
-                            <label>Nombre</label>
-                                <input class="input-text" type="text" placeholder="Tu Nombre">
-                        </div>
-        
-
-                    <div class="campo">
-                            <label>Teléfono</label>
-                                <input class="input-text" type="tel" placeholder="Tu teléfono">
-                    </div>
-        
-
-                    <div class="campo">
-                            <label>Correo</label>
-                                <input class="input-text" type="Email" placeholder="Tu Email">
-                    </div>
-        
-
-                    <div class="campo">
-                            <label>Mensaje</label>
-                                <textarea class="input-text"></textarea>
-                    </div>
-
-                    </div>  
-
-                        <div class="alinear-derecha flex">
-                            <input class="boton w-sm" type="submit" value="Enviar">
-                        </div> 
-
-            </fieldset>
-        </form>
-
-</section>
-</main>
-         <!---------------------- Portada --------------------------->
-
-<section class="hero">
-    <div class="contenido-hero">
-    
-        <h2>Distribuidora de materiales de construcción</h2>
-
-
-            <div class="ubicacion">
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc107" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <circle cx="12" cy="11" r="3" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-            </svg>
-            <p>Florencia, Caquetá</p>
             </div>
+          </div>
+  </div>
+       
+                <div class="card" style=" margin: auto; margin-top: 20px; text-align: center" >
+                  <div class="card-body">
+                    <h5 class="card-title" style="text-align: center">H&D Construequipos</h5>
+                    <p class="card-text">Somos una empresa lider en la region.</p>
+                    <a href="#" class="btn btn-danger">Inicio</a>
+                  </div>
+                </div>
+         
+        </div>
 
 
-            
 
-    </div> 
-</section>
 <!---------------------- Pie de página --------------------------->
 
 <footer class="footer">
-    <p>Todos los derechos reservados. H&D CONSTRUEQUIPOS</p>
+    <p style="text-align: center">Todos los derechos reservados. H&D CONSTRUEQUIPOS</p>
 </footer>
 
 </body>
