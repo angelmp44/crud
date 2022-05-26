@@ -10,12 +10,19 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		$query =mysqli_query($conexion, $sql);
 
 		if ($query) {
-			echo "1 fila eliminada";
-		}else{
-			echo mysqli_error($conexion);
+			echo "<script>
+			alert('Eliminacion exitosa');
+			window.location='./mostrarventayalquiler.php'
+		  </script>";
 		}
-		
-			}
+		else{
+			echo "<script>
+			alert('Eliminacion incorrecta');
+			window.location='./mostrarventayalquiler.php'
+		  </script>";
+		}
 
-    header('location: /crud/crud/Formularios/mostrarventayalquiler.php')
+	}
+	
+
 ?>

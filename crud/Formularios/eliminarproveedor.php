@@ -17,6 +17,6 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		
 			}
 
-    header('location: /crud/crud/Formularios/mostrarproveedor.php')
+    header('location: mostrarproveedor.php')
 ?>
 

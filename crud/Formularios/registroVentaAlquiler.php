@@ -19,6 +19,6 @@ if($resultado){
 else{
     "error al registrar";
 }
-header('location: /crud/crud/Formularios/mostrarventayalquiler.php')
+header('location: mostrarventayalquiler.php')
 ?>
 
