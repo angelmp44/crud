@@ -39,7 +39,7 @@
 
 <center>
 		<br>
-		<h1 style="margin-bottom= 20px"> Registros encontrados </h1>
+		<h1 style="margin-bottom: 20px"> Registros encontrados </h1>
 		
 		<table class="table">
 			<thead>
