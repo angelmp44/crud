@@ -37,7 +37,7 @@
 
 <center>
   <br>
-        <h1 style="margin-bottom = 20px">Clientes encontrados </h1>
+        <h1 style="margin-bottom: 20px">Clientes encontrados </h1>
         
   <table  class="table">
   <tr>

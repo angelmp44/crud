@@ -39,7 +39,9 @@
 
 <center>
 		<br>
-		<h1 style="margin-bottom= 20px"> Ventas y Alquiler </h1>
+
+		<h1 style="margin-bottom: 20px"> Ventas y Alquiler </h1>
+
 		
 		<table class="table">
 			<thead>

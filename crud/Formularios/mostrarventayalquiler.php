@@ -38,7 +38,7 @@
 <!-- navbar-->
 <center>
 		<br>
-		<h1 style = "margin-bottom = 50px;" > Listado de ventas y alquileres </h1>
+		<h1 style = "margin-bottom: 50px;" > Listado de ventas y alquileres </h1>
 		
 		<table class="table">
 			<thead>
