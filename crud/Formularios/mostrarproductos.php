@@ -38,7 +38,7 @@
 
 <center>
 		<br>
-		<h1 style="margin-bottom = 20px;"> Listado de productos </h1>
+		<h1 style="margin-bottom: 20px;"> Listado de productos </h1>
 		
 		<table class="table"> 
 			<thead>
