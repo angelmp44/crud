@@ -47,7 +47,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Gestion de Productos</h1>
+		<h1>Gestión de Productos</h1>
 		<br>
 		<form  action="buscarproductos.php" method="get">
 		<input style="width :50%" name="buscador" placeholder="busca por nombre o tipo de producto" class="form-control">

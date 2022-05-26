@@ -45,7 +45,7 @@
 		<br>
 		<br>
 		<br>
-		<h1>Gestion de Ventas y Alquileres</h1>
+		<h1>Gestión de Ventas y Alquileres</h1>
 		<br>
 		<form  action="buscarventayalquiler.php" method="get">
 		<input style="width :50%" name="buscador" placeholder="Buscar por doc de cliente o asesor" class="form-control">

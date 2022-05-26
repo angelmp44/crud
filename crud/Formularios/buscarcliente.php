@@ -25,10 +25,13 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarcliente.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_cliente.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			        <li><a class="dropdown-item" href="./agendaclientes.php">volver</a></li>
+			        
               <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
+          <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./agendaclientes.php">Volver</a>
+              </li>
         </ul>	
       </div>
     </div>

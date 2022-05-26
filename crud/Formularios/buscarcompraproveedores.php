@@ -26,10 +26,14 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarcompraproveedores.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_compra_proveedores.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			  <li><a class="dropdown-item" href="./agendacompraproveedor.php">volver</a></li>
+			  
               <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
+          </li>
+		  <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./agendacompraproveedor.php">Volver</a>
+              </li>
         </ul>	
       </div>
     </div>

@@ -26,10 +26,14 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarenvioalquiler.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_envios_alquiler.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			  <li><a class="dropdown-item" href="./agendaenvioalquiler.php">volver</a></li>
+			  
               <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
+          </li>
+		  <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./agendaenvioalquiler.php">Volver</a>
+              </li>
         </ul>	
       </div>
     </div>

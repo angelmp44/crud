@@ -26,10 +26,13 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarproductos.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_producto.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			  <li><a class="dropdown-item" href="./agendaproductos.php">volver</a></li>
+			
               <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
+		  <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./agendaproductos.php">Volver</a>
+              </li>
         </ul>	
       </div>
     </div>

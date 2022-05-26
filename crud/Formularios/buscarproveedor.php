@@ -8,9 +8,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 
-<!-- menu-->
-<nav class="navbar navbar-expand-lg bg-light" >  
-    <div class="container-fluid" style = "background-color:  rgb(223, 222, 222); padding : 10px">
+
+<!-- navbar-->
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid" style = "background-color:  rgb(223, 222, 222); padding : 10px">
       <a class="navbar-brand" href="#">H&D Construequipos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,14 +27,18 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarproveedor.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_proveedor.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			  <li><a class="dropdown-item" href="./agendaproveedor.php">volver</a></li>
-              <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li
+			  
+              <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
+		  <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./agendaproveedor.php">Volver</a>
+              </li>
         </ul>	
       </div>
     </div>
 </nav>
+<!-- navbar-->
 
 <center>
 		<br>

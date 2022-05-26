@@ -42,6 +42,9 @@
 </nav>
 
 <center>
+<br>
+		<br>
+		<br>
 	
 		<h1>Agenda de Envíos Alquiler</h1>
 		<br>
