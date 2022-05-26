@@ -17,6 +17,7 @@
 <body>
 
 <!-- menu-->
+<!-- menu-->
 <nav class="navbar navbar-expand-lg bg-light" >  
     <div class="container-fluid" style = "background-color:  rgb(223, 222, 222); padding : 10px">
       <a class="navbar-brand" href="#">H&D Construequipos</a>
@@ -28,25 +29,27 @@
 
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
+              Menú
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="../Formularios/mostrarenvioventa.php">Mostrar todos</a></li>
-              <li><a class="dropdown-item" href="../Formularios/frm_envios_venta.php">Ingresar nuevo</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
-            </ul>
-          </li>
-        </ul>	
+                  <li><a class="dropdown-item" href="../Formularios/agendaclientes.php">Clientes</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaproductos.php">Productos</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaventayalquiler.php">Ventas y Alquiler</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaproveedor.php">Proveedores</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendacompraproveedor.php">Compras a Proveedores</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaenvioalquiler.php">Envíos productos alquiler</a></li>
+                  
+                </ul>
       </div>
     </div>
 </nav>
-
 <center>
 		<br>
 		<br>
 		<br>
-		<h1>Agenda de Envíos por ventas</h1>
+		<h1>Gestión de Envíos por ventas</h1>
 		<br>
 		<form  action="buscarenvioventa.php" method="get">
 		<input style="width :50%" name="buscador" placeholder = "Buscar por doc del cliente o administrador" class="form-control">
