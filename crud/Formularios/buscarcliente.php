@@ -8,8 +8,8 @@
 ?>
 
 <!-- navbar-->
-<nav class="navbar navbar-dark bg-dark">
-    <div class="container-fluid" >
+<nav class="navbar navbar-expand-lg bg-light">
+<div class="container-fluid" style = "background-color:  rgb(223, 222, 222); padding : 10px">
       <a class="navbar-brand" href="#">H&D Construequipos</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@
               <li><a class="dropdown-item" href="../Formularios/mostrarcliente.php">Mostrar todos</a></li>
               <li><a class="dropdown-item" href="../Formularios/frm_cliente.php">Ingresar nuevo</a></li>
               <li><hr class="dropdown-divider"></li>
-			  <li><a class="dropdown-item" href="./agendaclientes.php">volver</a></li>
+			        <li><a class="dropdown-item" href="./agendaclientes.php">volver</a></li>
               <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
             </ul>
           </li>
