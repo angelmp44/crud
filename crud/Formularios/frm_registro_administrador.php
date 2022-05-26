@@ -72,6 +72,13 @@
                         <input class="botons" type="submit" name="enviar"value="Registrarse" /> 
                     </div>
 
+                    <br>
+                    <br>
+
+                    <div>
+                <center><a class="botons" href="../pag_principal/principal.html">Volver</a></center>
+            </div> 
+
                 
         </form> 
         
