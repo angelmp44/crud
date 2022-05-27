@@ -77,7 +77,7 @@
         <td> <?php echo $fila['valor_venta'] ?> </td>
         <td> <?php echo $fila['valor_alquiler'] ?> </td>
 		<td>
-		<a href="<?='eliminarventayalquiler.php?id_venta='.($fila["id_venta"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarventayalquiler.php?id_venta='.($fila["id_venta"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarventayalquiler.php?id_venta='.($fila["id_venta"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>

@@ -66,7 +66,7 @@
 		<td> <?php echo $fila['correo_proveedor'] ?> </td>
         <td> <?php echo $fila['direccion_proveedor'] ?> </td>
 		<td>
-		<a href="<?='eliminarproveedor.php?id_proveedor='.($fila["id_proveedor"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarproveedor.php?id_proveedor='.($fila["id_proveedor"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarproveedor.php?id_proveedor='.($fila["id_proveedor"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>

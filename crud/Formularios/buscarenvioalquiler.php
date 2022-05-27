@@ -73,7 +73,7 @@
         <td> <?php echo $fila['fecha_fin'] ?> </td>
         <td> <?php echo $fila['direccion_envio'] ?> </td>
 		<td>
-		<a href="<?='eliminarenvioalquiler.php?id_envio_alquiler='.($fila["id_envio_alquiler"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarenvioalquiler.php?id_envio_alquiler='.($fila["id_envio_alquiler"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarenvioalquiler.php?id_envio_alquiler='.($fila["id_envio_alquiler"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>

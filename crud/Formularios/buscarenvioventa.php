@@ -70,7 +70,7 @@
         <td> <?php echo $fila['fecha_entrega'] ?> </td>
         <td> <?php echo $fila['direccion_envio'] ?> </td>
 		<td>
-		<a href="<?='eliminarenvioventa.php?id_envio_venta='.($fila["id_envio_venta"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarenvioventa.php?id_envio_venta='.($fila["id_envio_venta"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarenvioventa.php?id_envio_venta='.($fila["id_envio_venta"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>

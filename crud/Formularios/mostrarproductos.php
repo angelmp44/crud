@@ -71,7 +71,7 @@
         <td> <?php echo $fila['precio_venta'] ?> </td>
         <td> <?php echo $fila['precio_alquiler_dia'] ?> </td>
 		<td>
-		<a href="<?='eliminarproductos.php?id_producto='.($fila["id_producto"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarproductos.php?id_producto='.($fila["id_producto"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarproductos.php?id_producto='.($fila["id_producto"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>

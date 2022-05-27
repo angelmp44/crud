@@ -67,7 +67,7 @@
 		<td> <?php echo $fila['correo_cliente'] ?> </td>
         <td> <?php echo $fila['direccion_cliente'] ?> </td>
 		<td>
-        <a href="<?='eliminarcliente.php?doc_cliente='.($fila["doc_cliente"]) ?>". > 🚀Borrar</a>
+        <a href="<?='eliminarcliente.php?doc_cliente='.($fila["doc_cliente"]) ?>". > ❌Borrar</a>
 	    <a href="<?='editarcliente.php?doc_cliente='.($fila["doc_cliente"]) ?>". > ✒️Editar</a>
       </td>      
     </tr>

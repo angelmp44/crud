@@ -70,7 +70,7 @@
 		<td> <?php echo $fila['cant_producto_compra'] ?> </td>
         <td> <?php echo $fila['valor_compra'] ?> </td>
 		<td>
-		<a href="<?='eliminarcompraproveedores.php?id_compra='.($fila["id_compra"]) ?>". > 🚀Borrar</a>
+		<a href="<?='eliminarcompraproveedores.php?id_compra='.($fila["id_compra"]) ?>". > ❌Borrar</a>
 		<a href="<?='editarcompraproveedores.php?id_compra='.($fila["id_compra"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>
