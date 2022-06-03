@@ -19,6 +19,13 @@
 <script src="./jquery-3.3.1.min.js" ></script>
 <link rel="shortcut icon" href="../CSS/img/Logo.png"> 
 
+
+<!---------------------- Header-------------------------->
+
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
+
 </head>
 <body>
 
@@ -26,7 +33,7 @@
 <!---------------------- Barra de navegación -------------------------->
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">H&D Construequipos</a>
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>

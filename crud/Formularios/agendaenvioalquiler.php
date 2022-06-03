@@ -12,6 +12,13 @@
 
 
     <title>Envíos de Alquiler</title>
+
+<!---------------------- Header-------------------------->
+
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
+
 </head>
 <body>
 

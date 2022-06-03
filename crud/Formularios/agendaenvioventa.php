@@ -13,6 +13,12 @@
 
 
     <title>Envíos Ventas</title>
+
+<!---------------------- Header-------------------------->
+
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
 </head>
 <body>
 

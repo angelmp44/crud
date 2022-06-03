@@ -7,6 +7,12 @@
                 or die("not connected".mysqli_connect_error());
 ?>
 
+<!---------------------- Header-------------------------->
+
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
+
 <!-- navbar-->
 
 <?php require "../partes/navbarcliente.html" ?> 
