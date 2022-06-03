@@ -8,34 +8,9 @@
 ?>
 
 <!-- navbar-->
-<nav class="navbar navbar-expand-lg bg-light">
-<div class="container-fluid" style = "background-color:  rgb(223, 222, 222); padding : 10px">
-      <a class="navbar-brand" href="#">H&D Construequipos</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 300px;">
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Servicios
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-              <li><a class="dropdown-item" href="../Formularios/mostrarcliente.php">Mostrar todos</a></li>
-              <li><a class="dropdown-item" href="../Formularios/frm_cliente.php">Ingresar nuevo</a></li>
-              <li><hr class="dropdown-divider"></li>
-			        
-              <li><a class="dropdown-item" href="../pag_administrador/admin.html">Salir</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./agendaclientes.php">Volver</a>
-              </li>
-        </ul>	
-      </div>
-    </div>
-</nav>
+<?php require "../partes/navbar.html" ?> 
+
 <!-- navbar-->
 
 <center>
