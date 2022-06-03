@@ -9,7 +9,7 @@
 
 <!-- navbar-->
 
-<?php require "../partes/navbar.html" ?> 
+<?php require "../partes/navbarcliente.html" ?> 
 
 <!-- navbar-->
 
