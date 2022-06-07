@@ -64,7 +64,7 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                   <li><a class="dropdown-item" href="#">Editar perfil</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="../pag_principal/principal.html">Cerrar sesión</a></li>
+                  <li><a class="dropdown-item" href="../pag_principal/principal.php">Cerrar sesión</a></li>
                 </ul>
               </li>
             </ul>
