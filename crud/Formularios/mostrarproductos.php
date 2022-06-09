@@ -15,12 +15,14 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarproductos.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
-
 <center>
 		<br>
 		<h1 style="margin-bottom: 20px;"> Listado de productos </h1>
+		<a href="../Formularios/agendaproductos.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 		
 		<table class="table"> 
 			<thead>

@@ -16,13 +16,16 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarcliente.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
 
 
 <center>
 		<br>
 		<h1 style="margin-bottom: 20px"> Lista de clientes </h1>
+		<a href="../Formularios/agendaclientes.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 
 		<table class="table">
 			<thead>

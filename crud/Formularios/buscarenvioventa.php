@@ -15,11 +15,14 @@
 <!---------------------- Header-------------------------->
 
 <!-- navbar-->
-<?php require "../partes/navbarenvioventa.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
 <center>
 		<br>
 		<h1> Envíos por ventas </h1>
+		<a href="../Formularios/agendaenvioventa.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 		
 		<table class="table">
 			<thead>

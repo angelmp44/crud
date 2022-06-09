@@ -18,12 +18,15 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarventayalquiler.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
 
 <center>
 		<br>
 		<h1 style = "margin-bottom: 50px;" > Listado de ventas y alquileres </h1>
+		<a href="../Formularios/agendaventayalquiler.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 		
 		<table class="table">
 			<thead>

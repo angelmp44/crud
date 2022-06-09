@@ -16,12 +16,15 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarproveedor.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
 
 <center>
 		<br>
 		<h1> Proveedores </h1>
+		<a href="../Formularios/agendaproveedor.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 
 		<table class="table">
 			<thead>

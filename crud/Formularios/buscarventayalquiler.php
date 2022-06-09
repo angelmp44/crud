@@ -15,7 +15,7 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarventayalquiler.html" ?> 
+<?php require "../partes/navbaragendas.html" ?> 
 <!-- navbar-->
 
 
@@ -23,6 +23,9 @@
 		<br>
 
 		<h1 style="margin-bottom: 20px"> Ventas y Alquiler </h1>
+		<a href="../Formularios/agendaventayalquiler.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 
 		
 		<table class="table">

@@ -15,12 +15,15 @@
 
 
 <!-- navbar-->
-<?php require "../partes/navbarenvioalquiler.html" ?> 
-<!-- navbar--> 
+<?php require "../partes/navbaragendas.html" ?> 
+<!-- navbar-->
 
 <center>
 		<br>
 		<h1> Lista de Envíos por Alquiler </h1>
+		<a href="../Formularios/agendaenvioalquiler.php" class="btn btn-light" >Volver</a>
+        <br>
+        <br>
 		
 		<table class="table">
 			<thead>
