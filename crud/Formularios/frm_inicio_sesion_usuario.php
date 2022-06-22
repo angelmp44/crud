@@ -26,7 +26,7 @@
         <p><a href="#">Recuperar contraseña</a></p>        
         <p><a href="../Formularios/frm_registro_usuario.php">Registrarse</a></p>
         <input class="botons" type="submit" name="" value="INICIAR SESION">
-        <p><a href="../pag_principal/principal.html">Volver</a></p>
+        <p><a href="../pag_principal/principal.php">Volver</a></p>
     </form>  
 
 </body>

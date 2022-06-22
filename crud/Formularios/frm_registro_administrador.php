@@ -76,7 +76,7 @@
                     <br>
 
                     <div>
-                <center><a class="botons" href="../pag_principal/principal.html">Volver</a></center>
+                <center><a class="botons" href="../pag_principal/principal.php">Volver</a></center>
             </div> 
 
                 
