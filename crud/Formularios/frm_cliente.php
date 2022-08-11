@@ -34,6 +34,7 @@
 
         
             <P><legend class="subtitulo">Registrar Cliente</legend></P> 
+            <br>
 
             <div>
                 <label class="etiqueta">Documento del Cliente</label>
@@ -64,12 +65,12 @@
                 <label class="etiqueta">Dirección</label>
                 <input class="controls" type="text" name="direccion_cliente" placeholder="Ingresa la dirección del cliente">
             </div> 
+            <br>
 
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar Cliente" /> 
             </div>
-            <br>
-            <br>
+            
             <div>
                 <center><a class="botons" href="agendaclientes.php">Regresar</a></center>
             </div> 

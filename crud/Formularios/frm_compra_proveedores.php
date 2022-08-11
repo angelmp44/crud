@@ -14,6 +14,18 @@
     <title>Registro Compra Proveedores| H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 
+
+<!---------------------- Header-------------------------->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
+<!-- menu-->
+<?php require "../partes/navbaragendas.html" ?> 
+<!-- menu-->
 </head>
 <body>
 
@@ -21,7 +33,7 @@
 
         
             <P><legend class="subtitulo">Registro de Compras</legend></P>
-
+            <br>
             <div>
                 <label class="etiqueta">Código del proveedor</label>
                 <input class="controls" type="text" name="id_proveedor" placeholder="Ingresa el código del proveedor">
@@ -41,12 +53,11 @@
                 <label class="etiqueta">Valor de la compra</label>
                 <input class="controls" type="text" name="valor_compra" placeholder="Valor de la compra">
             </div>
-
+            <br>
             <div>
                 <input class="botons" type="submit" name="enviar"value="Registrar Compra" /> 
             </div>
-            <br>
-            <br>
+           
             <div>
                 <center><a class="botons" href="agendaclientes.php">Regresar</a></center>
             </div> 
@@ -55,4 +66,8 @@
     </form> 
    
 </body>
+
+<!-- Footer-->
+<?php require "../partes/footer.html" ?>
+<!-- Footer-->
 </html>
