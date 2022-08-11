@@ -7,7 +7,7 @@
 
 body {
     background-position: center;
-    background-image: url('Img/blanco.jpeg');
+    background-image: url('../CSS/img/blanco.jpeg');
     background-size: 100%;
 }
 .formulario{
