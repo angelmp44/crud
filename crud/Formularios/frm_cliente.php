@@ -9,7 +9,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     
     
-    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_cliente.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
     <title>Registro Cliente | H&D Construequipos</title>
    
 

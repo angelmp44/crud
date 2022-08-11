@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_proveedor.css">
+   
+
+    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
     <title>Registro Proveedor | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 

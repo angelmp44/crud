@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
    
-    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_producto.css">
+   
+
+    <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
     <title>Registro Producto | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 
@@ -33,6 +35,7 @@
             </div>
             <div>
                 <label class="etiqueta">Tipo del producto </label>
+                
 
                 <select class= "tipo_producto" name="tipo_producto">
 
@@ -41,7 +44,8 @@
                     <option>Venta</option>
                               
                 </select>
-
+                <br>
+                <br> 
             </div>
             <div>
                 <label class="etiqueta">Cantidad del producto</label>
