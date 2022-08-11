@@ -73,11 +73,11 @@
             </div>
 
             <div>
-                <input class="botons" type="submit" name="enviar"value="Registrar" /> 
+            <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrar" /> </center>
             </div>
-            
+            <br>
             <div>
-                <center><a class="botons" href="agendaventayalquiler.php">Regresar</a></center>
+            <center><a class="btn btn-danger" href="agendaventayalquiler.php">Regresar</a></center>
             </div> 
 
     </form> 

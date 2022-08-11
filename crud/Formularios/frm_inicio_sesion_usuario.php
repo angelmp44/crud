@@ -35,10 +35,13 @@
         <h1>Iniciar Sesión</h1>
         <input class="controls" type="text" name="usuario" placeholder="Usuario">     
         <input class="controls" type="password" name="contraseña" placeholder="Contraseña">     
-        <p><a href="#">Recuperar contraseña</a></p>        
-        <p><a href="../Formularios/frm_registro_usuario.php">Registrarse</a></p>
-        <input class="botons" type="submit" name="" value="INICIAR SESION">
-        <p><a href="../pag_principal/principal.php">Volver</a></p>
+        
+        <br>        
+        <p><a class="btn btn-outline-danger" href="../Formularios/frm_registro_usuario.php">Registrarse</a></p>
+        <br>
+        <center><input class="btn btn-danger" type="submit" name="" value="INICIAR SESION"> </center> 
+        <br>
+        <p><a class="btn btn-outline-danger" href="../pag_principal/principal.php">Volver</a></p>
     </form> 
 
 

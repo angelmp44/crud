@@ -77,11 +77,11 @@
             </div>
             <br>
             <div>
-                <input class="botons" type="submit" name="enviar"value="Registrar producto" /> 
-            </div>
-            
+            <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrar producto" /> 
+            </div> </center>
+            <br>
             <div>
-                <center><a class="botons" href="agendaproductos.php">Regresar</a></center>
+            <center><a class="btn btn-danger" href="agendaproductos.php">Regresar</a></center>
             </div> 
 
     </form> 

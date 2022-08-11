@@ -28,7 +28,7 @@
                 
                     <P><legend class="subtitulo">Registráte como administrador</legend></P> 
                     
-                    <p>Ya tengo cuenta <a href="../Formularios/frm_inicio_sesion_admin.php">Ingresar</a></p>
+                    <p>Ya tengo cuenta <a class="btn btn-outline-danger" href="../Formularios/frm_inicio_sesion_admin.php">Ingresar</a></p>
 
 
                     <div>
@@ -76,14 +76,11 @@
 
                 
                     <div>
-                        <input class="botons" type="submit" name="enviar"value="Registrarse" /> 
+                    <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrarse" /> </center>
                     </div>
-
                     <br>
-
-
                     <div>
-                <center><a class="botons" href="../pag_principal/principal.php">Volver</a></center>
+                    <center><a class="btn btn-danger" href="../pag_principal/principal.php">Volver</a></center>
             </div> 
 
                 

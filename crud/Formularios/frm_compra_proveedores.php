@@ -55,11 +55,11 @@
             </div>
             <br>
             <div>
-                <input class="botons" type="submit" name="enviar"value="Registrar Compra" /> 
+            <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrar Compra" /> </center>
             </div>
-           
+           <br>
             <div>
-                <center><a class="botons" href="agendaclientes.php">Regresar</a></center>
+            <center><a class="btn btn-danger" href="agendaclientes.php">Regresar</a></center>
             </div> 
 
         

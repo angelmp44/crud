@@ -54,11 +54,11 @@
             </div> 
 
             <div>
-                <input class="botons" type="submit" name="enviar"value="Registrar Proveedor" /> 
+            <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrar Proveedor" /> </center>
             </div>
-            
+            <br>
             <div>
-                <center><a class="botons" href="agendaproveedor.php">Regresar</a></center>
+            <center><a class="btn btn-danger" href="agendaproveedor.php">Regresar</a></center>
             </div> 
 
     </form> 
