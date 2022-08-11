@@ -118,13 +118,7 @@
           </div>
   </div>
        
-                <div class="card" style=" margin: auto; margin-top: 20px; text-align: center" >
-                  <div class="card-body">
-                    <h5 class="card-title" style="text-align: center">H&D Construequipos</h5>
-                    <p class="card-text">Somos una empresa lider en la region.</p>
-                    <a href="#" class="btn btn-danger">Inicio</a>
-                  </div>
-                </div>
+              
          
         </div>
 
@@ -132,10 +126,10 @@
 
 <!---------------------- Pie de página --------------------------->
 
-<footer class="footer">
-    <p style="text-align: center">Todos los derechos reservados. H&D CONSTRUEQUIPOS</p>
-</footer>
+
 
 </body>
-
+<!-- Footer-->
+<?php require "../partes/footerpp.html" ?>
+<!-- Footer-->
 </html>
