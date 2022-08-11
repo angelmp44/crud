@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
 
+    
     <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_inicio_sesion.css">
     <title>Iniciar Sesión | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
