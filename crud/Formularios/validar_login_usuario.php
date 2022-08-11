@@ -14,7 +14,7 @@
 
         /* si cantidad_registros = 1 entonces se deja ingresar al usuario porque esta registrado*/
         if($cantidad_registros != 0 ) {
-            header("Location: ../pag_cliente/cliente.html");
+            header("Location: ../pag_cliente/cliente.php");
         }
         else {
 
