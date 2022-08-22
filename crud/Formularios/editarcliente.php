@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" type="text/css" href="../CSS/styles_frm_cliente.css">
+ <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
     <title>Registro Cliente | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
 <?php
@@ -15,13 +15,26 @@ $conexion =new mysqli("localhost","root","","construequipos")
 	while ($fila= mysqli_fetch_array($result)) {
 	?>
 	 
+<!---------------------- Header-------------------------->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+<?php require "../partes/header.html" ?>
+
+<!---------------------- Header-------------------------->
+<!-- menu-->
+<?php require "../partes/navbaragendas.html" ?> 
+<!-- menu-->
+
+</head>
+<body>
 	 
 
 <form action="<?='actualizarcliente.php?doc_cliente='.($fila["doc_cliente"])?>" method="post" class="formulario">
 	
 <P><legend class="subtitulo">Registrar Cliente</legend></P> 
-
+<br>
 <div>
                 <label class="etiqueta">Documento del Cliente</label>
                 <input class="controls" type="number" name="doc_cliente" placeholder="Ingresa el documento del cliente" value="<?php echo $fila['doc_cliente'] ?>" >
@@ -53,16 +66,21 @@ $conexion =new mysqli("localhost","root","","construequipos")
             </div> 
 
             <div>
-                <input class="botons" type="submit" value="Actualizar" /> 
+                <center><input class="btn btn-danger" type="submit" name="enviar"value="Actualizar" /></center> 
             </div>
             <br>
-            <br> 
             <div>
-                <center><a class="botons" href="mostrarcliente.php">Regresar</a></center>
+                <center><a class="btn btn-danger" href="agendaclientes.php">Regresar</a></center>
             </div> 
  
     </form> 
-    <img src="../CSS/img/Logo.png" style="width: 150px">
+   
 <?php
 	}
 ?>
+
+</body>
+<!-- Footer-->
+<?php require "../partes/footer.html" ?>
+<!-- Footer-->
+</html>
