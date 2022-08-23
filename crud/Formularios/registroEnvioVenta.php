@@ -16,7 +16,10 @@ if($resultado){
 
 }
 else{
-    echo "error al registrar envio";
+    echo "<script>
+    alert('Registro Exitoso');
+    window.location='./mostrarenvioventa.php'
+   </script>";
 }
-header('location: /crud/crud/Formularios/mostrarenvioventa.php')
+
 ?>

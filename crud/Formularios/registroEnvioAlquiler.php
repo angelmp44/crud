@@ -12,11 +12,14 @@ $resultado = $objConexion->query($sql);
 
 if($resultado){
 
- echo "registro exitoso";
+ echo "<script>
+ alert('Registro Exitoso');
+ window.location='./mostrarenvioalquiler.php'
+</script>";
 
 }
 else{
     echo "error al registrar envio";
 }
-header('location: /crud/crud/Formularios/mostrarenvioalquiler.php')
+
 ?>

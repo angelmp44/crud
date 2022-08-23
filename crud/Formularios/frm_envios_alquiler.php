@@ -66,7 +66,7 @@
             </div> 
             <br>
             <div>
-            <center><input class="btn btn-danger" type="submit" name="enviar"value="VALIDAR" /> </center>
+            <center><input class="btn btn-danger" type="submit" name="enviar"value="Registrar" /> </center>
             </div>
             <br>
             <div>

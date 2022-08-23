@@ -10,12 +10,15 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		$query =mysqli_query($conexion, $sql);
 
 		if ($query) {
-			echo "1 fila eliminada";
+			echo "<script>
+			alert('Eliminación Exitosa');
+			window.location='./mostrarcompraproveedores.php'
+		   </script>";
 		}else{
 			echo mysqli_error($conexion);
 		}
 		
 			}
 
-    header('location: mostrarcompraproveedores.php')
+   
 ?>

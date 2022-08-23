@@ -11,11 +11,14 @@ $resultado = $objConexion->query($sql);
 
 if($resultado){
 
- echo "registro exitoso";
+ echo "<script>
+ alert('Registro Exitoso');
+ window.location='./mostrarcompraproveedores.php'
+</script>";
 
 }
 else{
     echo "error al registrar compra a proveedor";
 }
-header('location: /crud/crud/Formularios/mostrarcompraproveedores.php')
+
 ?>
