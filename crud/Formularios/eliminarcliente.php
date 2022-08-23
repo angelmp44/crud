@@ -10,13 +10,13 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		$query =mysqli_query($conexion, $sql);
 
 		if ($query) {
-			echo "1 fila eliminada";
+			echo "<script>
+			alert('Cliente Eliminado Exitosamente');
+			window.location='./mostrarcliente.php'
+		</script>"; 
 		}else{
 			echo mysqli_error($conexion);
 		}
-		
 			}
-
-	header('location: mostrarcliente.php')
 ?>
 

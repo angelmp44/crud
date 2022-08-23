@@ -21,10 +21,13 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 		$query =mysqli_query($conexion,$sql);
 			if($query){
-				echo "1 fila actualizada";
+				echo "<script>
+                alert('Cliente Actualizado Exitosamente');
+                window.location='./mostrarcliente.php'
+            </script>"; 
 			}else{
 				echo mysqli_error($conexion);
 			}
 	}
-	header('location: /crud/crud/Formularios/mostrarcliente.php')
+	
 ?>

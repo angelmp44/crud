@@ -12,16 +12,15 @@ $sql = "INSERT INTO cliente (doc_cliente, nombre_cliente, apellido_cliente,
 $resultado = $objConexion->query($sql);
 
 if($resultado){
-
- echo "registro exitoso";
-
+    echo    "<script>
+                alert('Cliente Registrado Exitosamente');
+                window.location='./mostrarcliente.php'
+            </script>"; 
 }
+
 else{
     echo "error al registrar cliente";
 }
-
-header('location: /crud/crud/Formularios/mostrarcliente.php')
-
 
 ?>
 
