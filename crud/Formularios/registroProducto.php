@@ -13,10 +13,13 @@ $sql = "INSERT INTO producto (id_proveedor, nombre_producto, tipo_producto, cant
 $resultado = $objConexion->query($sql);
 
 if($resultado){
-    echo "Registro satisfactorio";
+    echo "<script>
+    alert('Registro Exitoso');
+    window.location='./mostrarproductos.php'
+</script>"; 
 }
 else{
     "error al registrar producto";
 }
-header('location: /crud/crud/Formularios/mostrarproductos.php')
+
 ?>

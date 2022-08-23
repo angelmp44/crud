@@ -26,10 +26,13 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 		$query =mysqli_query($conexion,$sql);
 			if($query){
-				echo "1 fila actualizada";
+				echo "<script>
+				alert('Actualización Exitosa');
+				window.location='./mostrarventayalquiler.php'
+			</script>";
 			}else{
 				echo mysqli_error($conexion);
 			}
 	}
-	header('location: mostrarventayalquiler.php')
+	
 ?>

@@ -14,11 +14,14 @@ $sql = "INSERT INTO venta_y_alquiler (fecha, doc_cliente, doc_admin, id_producto
 $resultado = $objConexion->query($sql);
 
 if($resultado){
-    echo "Registro satisfactorio";
+    echo "<script>
+    alert('Registro Exitoso');
+    window.location='./mostrarventayalquiler.php'
+</script>"; 
 }
 else{
     "error al registrar";
 }
-header('location: mostrarventayalquiler.php')
+
 ?>
 

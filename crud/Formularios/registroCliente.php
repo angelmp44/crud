@@ -13,7 +13,7 @@ $resultado = $objConexion->query($sql);
 
 if($resultado){
     echo    "<script>
-                alert('Cliente Registrado Exitosamente');
+                alert('Registro Exitoso');
                 window.location='./mostrarcliente.php'
             </script>"; 
 }

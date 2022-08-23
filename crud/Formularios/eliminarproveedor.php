@@ -10,13 +10,16 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		$query =mysqli_query($conexion, $sql);
 
 		if ($query) {
-			echo "1 fila eliminada";
+			echo "<script>
+			alert('Eliminación Exitosa');
+			window.location='./mostrarproveedor.php'
+		   </script>";
 		}else{
 			echo mysqli_error($conexion);
 		}
 		
 			}
 
-    header('location: mostrarproveedor.php')
+    
 ?>
 

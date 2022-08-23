@@ -11,7 +11,7 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 		if ($query) {
 			echo "<script>
-			alert('Eliminacion exitosa');
+			alert('Eliminación Exitosa');
 			window.location='./mostrarventayalquiler.php'
 		  </script>";
 		}

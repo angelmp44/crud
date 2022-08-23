@@ -12,12 +12,15 @@ $resultado = $objConexion->query($sql);
 
 if($resultado){
 
- echo "registro exitoso";
+ echo "<script>
+ alert('Registro Exitoso');
+ window.location='./mostrarproveedor.php'
+</script>"; 
 
 }
 else{
     echo "error al registrar proveedor";
 }
 
-header('location: /crud/crud/Formularios/mostrarproveedor.php')
+
 ?>

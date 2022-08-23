@@ -11,7 +11,7 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 		if ($query) {
 			echo "<script>
-			alert('Cliente Eliminado Exitosamente');
+			alert('Eliminación Exitosa');
 			window.location='./mostrarcliente.php'
 		</script>"; 
 		}else{

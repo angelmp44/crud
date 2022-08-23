@@ -22,7 +22,7 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		$query =mysqli_query($conexion,$sql);
 			if($query){
 				echo "<script>
-                alert('Cliente Actualizado Exitosamente');
+                alert('Actualización Exitosa');
                 window.location='./mostrarcliente.php'
             </script>"; 
 			}else{
