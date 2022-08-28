@@ -8,19 +8,33 @@ $sql = "INSERT INTO proveedor (nombre_proveedor, telefono_proveedor, correo_prov
         VALUES ('$_REQUEST[nombre_proveedor]', '$_REQUEST[telefono_proveedor]', '$_REQUEST[correo_proveedor]', 
         '$_REQUEST[direccion_proveedor]' )";
 
-$resultado = $objConexion->query($sql);
+//$resultado = $objConexion->query($sql);
 
-if($resultado){
+// Verificacion de datos minimos
+if(empty($_REQUEST['nombre_proveedor'])|| empty($_REQUEST['telefono_proveedor'])){
 
- echo "<script>
- alert('Registro Exitoso');
- window.location='./mostrarproveedor.php'
-</script>"; 
-
+    echo "<script>
+            alert('Registro incorrecto, ingresa nombre y telefono');
+            window.location='./mostrarproveedor.php'
+          </script>";
 }
-else{
-    echo "error al registrar proveedor";
+else {
+    $resultado = $objConexion->query($sql);
+    if($resultado){
+        echo "<script>
+        alert('Registro Exitoso');
+        window.location='./mostrarproveedor.php'
+            </script>"; 
+    }
+    else{
+        echo "<script>
+            alert('Registro incorrecto');
+            window.location='./mostrarproveedor.php'
+          </script>";
+    }
+    
 }
+
 
 
 ?>

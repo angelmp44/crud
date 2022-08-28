@@ -2,6 +2,10 @@
 $conexion =new mysqli("localhost","root","","construequipos")
 			or die("no hay conexion".mysqli_connect_error());
 
+	echo "<script>
+			confirm('Esta accion podria tener afectaciones graves 
+			en el sistema, desea continuar?');
+		  </script>";
 
 	if (isset($_GET['doc_cliente'])) {
 		$doc_cliente = $_GET['doc_cliente'];

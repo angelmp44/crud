@@ -9,18 +9,34 @@ $sql = "INSERT INTO cliente (doc_cliente, nombre_cliente, apellido_cliente,
         VALUES ('$_REQUEST[doc_cliente]', '$_REQUEST[nombre_cliente]', '$_REQUEST[apellido_cliente]', 
         '$_REQUEST[tel_cliente]', '$_REQUEST[correo_cliente]', '$_REQUEST[direccion_cliente]') ";
 
-$resultado = $objConexion->query($sql);
+//$resultado = $objConexion->query($sql);
 
-if($resultado){
-    echo    "<script>
-                alert('Registro Exitoso');
-                window.location='./mostrarcliente.php'
+
+if(empty($_REQUEST['doc_cliente'])|| empty($_REQUEST['nombre_cliente']) 
+        || empty($_REQUEST['tel_cliente'])){
+
+    echo "<script>
+            alert('Registro incorrecto, ingresa documento, nombre y telefono');
+            window.location='./mostrarcliente.php'
+          </script>";
+}
+else {
+    $resultado = $objConexion->query($sql);
+    if($resultado){
+        echo "<script>
+        alert('Registro Exitoso');
+        window.location='./mostrarcliente.php'
             </script>"; 
+    }
+    else{
+        echo "<script>
+            alert('Registro incorrecto');
+            window.location='./mostrarcliente.php'
+          </script>";
+    }
+    
 }
 
-else{
-    echo "error al registrar cliente";
-}
 
 ?>
 

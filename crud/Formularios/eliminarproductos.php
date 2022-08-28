@@ -1,7 +1,11 @@
 <?php
 $conexion =new mysqli("localhost","root","","construequipos")
 			or die("no hay conexion".mysqli_connect_error());
-
+	
+	echo "<script>
+			confirm('Esta accion podria tener afectaciones graves 
+			en el sistema, desea continuar?');
+		  </script>";
 
 	if (isset($_GET['id_producto'])) {
 		$id_producto = $_GET['id_producto'];
@@ -19,6 +23,4 @@ $conexion =new mysqli("localhost","root","","construequipos")
 		}
 		
 			}
-
- 
 ?>

@@ -141,7 +141,7 @@
 <!---------------------- Formulario --------------------------->
 <h1 style="text-align:center; font-size: 25px; margin-top: 50px; margin-left: 30px;"> Solicita asesoría </h1>
 <div style="display: flex; align-items: center; margin-left: 325px; margin-bottom: 20px; margin-right: 325px; border-radius: 15px; border: 1px solid rgb(177, 177, 177); text-align: center; padding: 10px">
-  <form action="../Formularios/enviarCorreo.php" method="post" style="width : 100%; margin:auto" class="row g-3 needs-validation" novalidate>
+  <form action="#" method="post" style="width : 100%; margin:auto" class="row g-3 needs-validation" novalidate>
  <div class="row">
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nombre</label>
