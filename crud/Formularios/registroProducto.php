@@ -28,7 +28,7 @@ if(empty($cantProducto)|| empty($tipoProducto) || empty($nombreProducto)
 
     echo "<script>
             alert('Registro incorrecto, ingrese los datos');
-            window.location='./mostrarproductos.php'
+            window.location='./frm_producto.php'
           </script>";
 }
 else {
@@ -48,7 +48,7 @@ else {
     else{
         echo "<script>
             alert('Registro incorrecto');
-            window.location='./mostrarproductos.php'
+            window.location='./frm_producto.php'
           </script>";
     }
     

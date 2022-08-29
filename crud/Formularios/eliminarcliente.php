@@ -4,8 +4,8 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 	echo "<script>
 			confirm('Esta accion podria tener afectaciones graves 
-			en el sistema, desea continuar?');
-		  </script>";
+			en el sistema, desea continuar?'); 
+		  </script>"; 
 
 	if (isset($_GET['doc_cliente'])) {
 		$doc_cliente = $_GET['doc_cliente'];

@@ -29,7 +29,7 @@ if(empty($_REQUEST['direccion_envio'])|| empty($_REQUEST['fecha_fin'])|| empty($
 
     echo "<script>
             alert('Registro incorrecto, llene todos los campos');
-            window.location='./mostrarenvioalquiler.php'
+            window.location='./frm_envios_alquiler.php'
           </script>";
 }
 else{
@@ -54,7 +54,7 @@ $cantidad_registros2 = mysqli_num_rows($objConexion->query($sql3));
         else{
                 echo "<script>
                     alert('Registro incorrecto, datos no encontrados');
-                    window.location='./mostrarenvioalquiler.php'
+                    window.location='./frm_envios_alquiler.php'
                   </script>";
             }
 }

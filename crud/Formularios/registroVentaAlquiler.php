@@ -26,7 +26,7 @@ if(empty($_REQUEST['fecha'])|| empty($_REQUEST['doc_cliente']) || empty($_REQUES
 
     echo "<script>
             alert('Registro incorrecto, campos incompletos');
-            window.location='./mostrarventayalquiler.php'
+            window.location='./frm_venta_y_alquiler.php'
           </script>";
 }
 else{
@@ -51,7 +51,7 @@ $cantidad_registros3 = mysqli_num_rows($objConexion->query($sql4));
         else{
                 echo "<script>
                     alert('Registro incorrecto, datos no encontrados');
-                    window.location='./mostrarventayalquiler.php'
+                    window.location='./frm_venta_y_alquiler.php'
                   </script>";
             }
 

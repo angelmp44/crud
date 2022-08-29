@@ -26,7 +26,7 @@ if(empty($_REQUEST['direccion_envio'])|| empty($_REQUEST['fecha_entrega']) || em
 
     echo "<script>
             alert('Registro incorrecto, llene todos los campos');
-            window.location='./mostrarenvioventa.php'
+            window.location='./frm_envios_venta.php'
           </script>";
 }
 else{
@@ -51,7 +51,7 @@ $cantidad_registros2 = mysqli_num_rows($objConexion->query($sql3));
         else{
                 echo "<script>
                     alert('Registro incorrecto, datos no encontrados');
-                    window.location='./mostrarenvioventa.php'
+                    window.location='./frm_envios_venta.php'
                   </script>";
             }
 
