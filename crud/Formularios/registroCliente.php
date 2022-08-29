@@ -16,7 +16,7 @@ if(empty($_REQUEST['doc_cliente'])|| empty($_REQUEST['nombre_cliente'])
         || empty($_REQUEST['tel_cliente'])){
 
     echo "<script>
-            alert('Registro incorrecto, ingresa documento, nombre y telefono');
+            alert('Registro incorrecto, ingrese documento, nombre y teléfono');
             window.location='./mostrarcliente.php'
           </script>";
 }

@@ -27,7 +27,7 @@ if(empty($cantProducto)|| empty($tipoProducto) || empty($nombreProducto)
         || empty($idProveedor)){
 
     echo "<script>
-            alert('Registro incorrecto, ingresa todos datos');
+            alert('Registro incorrecto, ingrese los datos');
             window.location='./mostrarproductos.php'
           </script>";
 }

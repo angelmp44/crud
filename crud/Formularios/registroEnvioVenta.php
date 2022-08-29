@@ -25,7 +25,7 @@ if(empty($_REQUEST['direccion_envio'])|| empty($_REQUEST['fecha_entrega']) || em
         || empty($_REQUEST['doc_admin'])|| empty($_REQUEST['doc_cliente'])){
 
     echo "<script>
-            alert('Registro incorrecto, llena todos los campos');
+            alert('Registro incorrecto, llene todos los campos');
             window.location='./mostrarenvioventa.php'
           </script>";
 }

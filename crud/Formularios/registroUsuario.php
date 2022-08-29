@@ -20,14 +20,14 @@ $cantidad_registros = mysqli_num_rows($resultado2);
 //si algun campo esta vacio no permite registrar
 if(empty($usuario) || empty($contraseña) || empty($correo)){
     echo "<script>
-            alert('Validacion incorrecta, intenta nuevamente');
+            alert('Validación incorrecta, intenta nuevamente');
             window.location='./frm_registro_usuario.php'
           </script>";
 }
 //si ya existe el correo en la base de datos no permite registrar
 else if($cantidad_registros != 0){
     echo "<script>
-            alert('Correo ya registrado, intenta nuevamente');
+            alert('Correo ya registrado, intente nuevamente');
             window.location='./frm_registro_usuario.php'
           </script>";
 }

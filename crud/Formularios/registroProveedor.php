@@ -14,7 +14,7 @@ $sql = "INSERT INTO proveedor (nombre_proveedor, telefono_proveedor, correo_prov
 if(empty($_REQUEST['nombre_proveedor'])|| empty($_REQUEST['telefono_proveedor'])){
 
     echo "<script>
-            alert('Registro incorrecto, ingresa nombre y telefono');
+            alert('Registro incorrecto, ingrese nombre y teléfono');
             window.location='./mostrarproveedor.php'
           </script>";
 }

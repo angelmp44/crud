@@ -24,14 +24,14 @@ $cantidad_registros = mysqli_num_rows($resultado2);
 if(empty($doc) || empty($nombre) || empty($apellido) ||
      empty($cargo)|| empty($correo)|| empty($telefono)|| empty($contraseña)){
     echo "<script>
-            alert('Validacion incorrecta, intenta nuevamente');
+            alert('Validacion incorrecta, intente nuevamente');
             window.location='./frm_registro_administrador.php'
           </script>";
 }
 //si ya existe el correo en la base de datos no permite registrar
 else if($cantidad_registros != 0){
     echo "<script>
-            alert('Administrador existente, intenta nuevamente');
+            alert('Administrador existente, intente nuevamente');
             window.location='./frm_registro_administrador.php'
           </script>";
 }
