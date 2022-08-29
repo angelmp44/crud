@@ -1,6 +1,14 @@
 <?php
 $conexion =new mysqli("localhost","root","","construequipos")
-			or die("no hay conexion".mysqli_connect_error());
+		or die("no hay conexion".mysqli_connect_error());
+
+
+
+		
+
+
+
+
 
 	if (isset($_GET['id_producto'])) {
 		$id_producto =$_GET['id_producto'];
@@ -22,14 +30,22 @@ $conexion =new mysqli("localhost","root","","construequipos")
 			 
 			WHERE `producto`.`id_producto` = $id_producto";
 
+
+
+
+
+
+
+
+
 		$query =mysqli_query($conexion,$sql);
 			if($query){
 				echo "<script>
-				alert('Actualización Exitosa');
+			alert('Actualización Exitosa');
 				window.location='./mostrarproductos.php'
-			</script>"; 
+		</script>"; 
 			}else{
-				echo mysqli_error($conexion);
+			echo mysqli_error($conexion);
 			}
 	}
 	

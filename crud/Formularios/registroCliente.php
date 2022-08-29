@@ -17,7 +17,7 @@ if(empty($_REQUEST['doc_cliente'])|| empty($_REQUEST['nombre_cliente'])
 
     echo "<script>
             alert('Registro incorrecto, ingrese documento, nombre y teléfono');
-            window.location='./mostrarcliente.php'
+            window.location='./frm_cliente.php'
           </script>";
 }
 else {
@@ -31,7 +31,7 @@ else {
     else{
         echo "<script>
             alert('Registro incorrecto');
-            window.location='./mostrarcliente.php'
+            window.location='./frm_cliente.php'
           </script>";
     }
     
