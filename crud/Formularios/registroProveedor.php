@@ -15,7 +15,7 @@ if(empty($_REQUEST['nombre_proveedor'])|| empty($_REQUEST['telefono_proveedor'])
 
     echo "<script>
             alert('Registro incorrecto, ingrese nombre y teléfono');
-            window.location='./mostrarproveedor.php'
+            window.location='./frm_proveedor.php'
           </script>";
 }
 else {
@@ -29,7 +29,7 @@ else {
     else{
         echo "<script>
             alert('Registro incorrecto');
-            window.location='./mostrarproveedor.php'
+            window.location='./frm_proveedor.php'
           </script>";
     }
     
