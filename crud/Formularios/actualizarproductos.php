@@ -2,14 +2,6 @@
 $conexion =new mysqli("localhost","root","","construequipos")
 		or die("no hay conexion".mysqli_connect_error());
 
-
-
-		
-
-
-
-
-
 	if (isset($_GET['id_producto'])) {
 		$id_producto =$_GET['id_producto'];
 		$id_proveedor=$_POST['id_proveedor'];
@@ -29,13 +21,6 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 			 
 			WHERE `producto`.`id_producto` = $id_producto";
-
-
-
-
-
-
-
 
 
 		$query =mysqli_query($conexion,$sql);

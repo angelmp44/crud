@@ -1,7 +1,22 @@
 
  <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_envios_venta.css">
-    <title>Registro Cliente | H&D Construequipos</title>
+    <title>Actualizar Cliente | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
+
+<!---------------------- Header-------------------------->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+<?php require "../partes/header.html" ?>
+</head>
+
+<!---------------------- Header-------------------------->
+<!-- menu-->
+<?php require "../partes/navbaragendas.html" ?> 
+<!-- menu-->
+
+
 <?php
 $conexion =new mysqli("localhost","root","","construequipos")
 			or die("no hay conexion".mysqli_connect_error());
@@ -15,29 +30,16 @@ $conexion =new mysqli("localhost","root","","construequipos")
 	while ($fila= mysqli_fetch_array($result)) {
 	?>
 	 
-<!---------------------- Header-------------------------->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-<?php require "../partes/header.html" ?>
-
-<!---------------------- Header-------------------------->
-<!-- menu-->
-<?php require "../partes/navbaragendas.html" ?> 
-<!-- menu-->
-
-</head>
 <body>
 	 
 
 <form action="<?='actualizarcliente.php?doc_cliente='.($fila["doc_cliente"])?>" method="post" class="formulario">
 	
-<P><legend class="subtitulo">Registrar Cliente</legend></P> 
+<P><legend class="subtitulo">Actualizar Cliente</legend></P> 
 <br>
 <div>
                 <label class="etiqueta">Documento del Cliente</label>
-                <input class="controls" type="number" name="doc_cliente" placeholder="Ingresa el documento del cliente" value="<?php echo $fila['doc_cliente'] ?>" >
+                <input class="controls" type="number" name="doc_cliente" placeholder="Ingresa el documento del cliente" value="<?php echo $fila['doc_cliente'] ?>" readonly>
             </div>
 
             <div>

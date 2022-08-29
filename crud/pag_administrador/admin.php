@@ -62,7 +62,7 @@
                   Mi cuenta
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                  <li><a class="dropdown-item" href="#">Editar perfil</a></li>
+                  <li><a class="dropdown-item" href="../Formularios/agendaAdmin.php">Editar perfil</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="../pag_principal/principal.php">Cerrar sesión</a></li>
                 </ul>

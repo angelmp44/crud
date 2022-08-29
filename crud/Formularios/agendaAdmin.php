@@ -11,8 +11,7 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-
-    <title>Productos</title> 
+    <title >Perfil</title>
 
 <!---------------------- Header-------------------------->
 
@@ -21,29 +20,26 @@
 <!---------------------- Header-------------------------->
 
 </head>
-<body>
+<body> 
 
-<!-- menu-->
-<?php require "../partes/navbaragendas.html" ?> 
-<!-- menu-->
-
-
+<!--contenido principal-->
 <center>
-		<br> 
 		<br>
+		
+		<h1>Ingresa tu documento</h1>
 		<br>
-		<h1>Gestión de Productos</h1>
-		<br>
-		<form  action="buscarproductos.php" method="get">
-		<input style="width :50%" name="buscador" placeholder="busca por nombre o tipo de producto" class="form-control">
+		<form  action="buscarAdmin.php" method="get">
+		<input style="width :30%" name="buscador" placeholder="Buscar por documento" class="form-control">
 			<br>
-			<br>
-			<input type=submit value="Buscar" class="btn btn-outline-danger">
-		<a href="../Formularios/mostrarproductos.php" class="btn btn-outline-danger">Mostrar todos</a>
-		<a href="../Formularios/frm_producto.php" class="btn btn-outline-danger">Ingresar nuevo</a>
-	
+		
+			<input type=submit value="Buscar"  class="btn btn-outline-danger">
+		<a href="../pag_administrador/admin.php" class="btn btn-outline-danger">Volver</a>
 		</form>
 	</center>
+
+<!--fin-->
+	
 </body>
+
 <?php require "../partes/footer.html" ?>
 </html>
