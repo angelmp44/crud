@@ -37,15 +37,15 @@ $conexion =new mysqli("localhost","root","","construequipos")
 <br>
 <div>
     <label class="etiqueta">Nombre</label>
-    <input class="controls" type="text" name="nombre_usuario" placeholder="Ingresa tu nombre">
+    <input class="controls" type="text" name="nombre_usuario" value="<?php echo $fila['nombre_usuario'] ?>">
 </div> 
 <div>
     <label class="etiqueta">Crea una contraseña</label>
-    <input class="controls" type="password" name="contraseña_usuario" placeholder="Contraseña">
+    <input class="controls" type="password" name="contraseña_usuario" value="<?php echo $fila['contraseña_usuario'] ?>">
 </div>
 <div>
     <label class="etiqueta">Correo</label>
-    <input class="controls" type="email" name="correo_usuario" placeholder="Ingresa tu correo electrónico">
+    <input class="controls" type="email" name="correo_usuario" value="<?php echo $fila['correo_usuario'] ?>">
 </div>
 <div>
 <center><input class="btn btn-danger" type="submit" name="enviar"value="Actualizar" /> </center>
