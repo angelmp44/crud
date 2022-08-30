@@ -6,37 +6,35 @@ $objConexion = conectarse();
 
 // de entrada se verifica esto
 // si estos campos estan vacios no hacer la consulta
-if(empty($nombre_admin) || empty($doc_admin) || $cargo_admin == "Seleccionar"){
+if(empty($id_usuario) || empty($nombre_usuario) || empty($correo_usuario)){
     echo "<script>
         alert('Error en actualización, ingresa datos válidos');
-        window.location='./agendaAdmin.php'
+        window.location='./agendaUsuario.php'
         </script>"; 
 }
 else{
-    if (isset($_GET['doc_admin'])) {
-		$doc_admin =$_GET['doc_admin'];
-		$nombre_admin=$_POST['nombre_admin'];
-		$apellido_admin=$_POST['apellido_admin'];
-        $cargo_admin=$_POST['cargo_admin'];
-        $correo_admin=$_POST['correo_admin'];
-		$tel_admin=$_POST['tel_admin'];
+    if (isset($_GET['id_usuario'])) {
+		$id_usuario =$_GET['id_usuario'];
+		$nombre_usuario=$_POST['nombre_usuario'];
+		$contraseña_usuario=$_POST['contraseña_usuario'];
+        $correo_usuario=$_POST['correo_usuario'];
+       
 		
 
-	$sql ="UPDATE `administrador` SET 
-			`nombre_admin` = '$nombre_admin', 
-			`apellido_admin` = '$apellido_admin', 
-			`cargo_admin` = '$cargo_admin', 
-			`correo_admin` = '$correo_admin', 
-            `tel_admin` = '$tel_admin'
+	$sql ="UPDATE `usuario` SET 
+			`nombre_usuario` = '$nombre_usuario', 
+			`contraseña_usuario` = '$contraseña_usuario', 
+			`correo_usuario` = '$correo_usuario' 
+
 			 
-			WHERE `administrador`.`doc_admin` = $doc_admin ";
+			WHERE `usuario`.`id_usuario` = $id_usuario ";
     
             //ejecutamos la consulta de insercion de registro       
                 $query = $objConexion->query($sql);
                 if($query){
                     echo "<script>
                     alert('Actualización Exitosa');
-                    window.location='./agendaAdmin.php'
+                    window.location='./agendaUsuario.php'
                         </script>"; 
                 }
             }
@@ -45,7 +43,7 @@ else{
             else{
                     echo "<script>
                         alert('Actualización incorrecta, datos no encontrados');
-                        window.location='./agendaAdmin.php'
+                        window.location='./agendaUsuario.php'
                       </script>";
                 }
         

@@ -16,32 +16,29 @@
 
 <center>
 		
-		<h1 style="margin-bottom: 50px;"> Administrador encontrado </h1>
-		<a href="../Formularios/agendaAdmin.php" class="btn btn-light" >Volver</a>
+		<h1 style="margin-bottom: 50px;"> Usuario encontrado </h1>
+		<a href="../Formularios/agendaUsuario.php" class="btn btn-light" >Volver</a>
         <br>
         <br>
 		<table class="table">
 			<thead>
 				<tr>
-					<th>Documento</th>
+					<th>Id</th>
 					<th>Nombre</th>
-					<th>Apellido</th>
-					<th>Cargo</th>
 					<th>Correo</th>
-					<th>Teléfono</th>
-                    <th>Acciones</th>
+					<th>Acciones</th>
 				</tr>
 			</thead>
   <?php
     $buscador = $_GET['buscador'];
     if(empty($buscador)){
         echo "<script>
-                    alert('Ingresa un documento válido');
-                    window.location='./agendaAdmin.php'
+                    alert('Ingresa un nombre válido');
+                    window.location='./agendaUsuario.php'
               </script>";
     }
     else{
-        $sql = "SELECT * FROM `administrador` WHERE `doc_admin` 
+        $sql = "SELECT * FROM `usuario` WHERE `nombre_usuario` 
         LIKE '%$buscador%' ";
         $result=mysqli_query($conexion,$sql);
         while($fila=mysqli_fetch_array($result)){
@@ -49,15 +46,12 @@
    
   ?>
     <tr>
-		<td> <?php echo $fila['doc_admin'] ?> </td>
-		<td> <?php echo $fila['nombre_admin'] ?> </td>
-		<td> <?php echo $fila['apellido_admin'] ?> </td>
-		<td> <?php echo $fila['cargo_admin'] ?> </td>
-        <td> <?php echo $fila['correo_admin'] ?> </td>
-        <td> <?php echo $fila['tel_admin'] ?> </td>
+		<td> <?php echo $fila['id_usuario'] ?> </td>
+		<td> <?php echo $fila['nombre_usuario'] ?> </td>
+		<td> <?php echo $fila['correo_usuario'] ?> </td>
         
 		<td>
-		<a href="<?='editarAdmin.php?doc_admin='.($fila["doc_admin"]) ?>". > ✒️Editar</a>
+		<a href="<?='editarUsuario.php?id_usuario='.($fila["id_usuario"]) ?>". > ✒️Editar</a>
 		</td>
 	  </tr>
 	<?php
@@ -65,6 +59,7 @@
     }
 	?>
 		</table>
-</center>
+		</center> 
+
 
 <?php require "../partes/footerpp.html" ?>

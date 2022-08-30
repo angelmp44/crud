@@ -26,14 +26,14 @@
 <center>
 		<br>
 		
-		<h1>Ingresa tu documento</h1>
+		<h1>Ingresa tu nombre</h1>
 		<br>
-		<form  action="buscarAdmin.php" method="get">
+		<form  action="buscarUsuario.php" method="get">
 		<input style="width :30%" name="buscador" placeholder="Buscar por documento" class="form-control">
 			<br>
 		
 			<input type=submit value="Buscar"  class="btn btn-outline-danger">
-		<a href="../pag_administrador/admin.php" class="btn btn-outline-danger">Volver</a>
+		<a href="../pag_cliente/cliente.php" class="btn btn-outline-danger">Volver</a>
 		</form>
 	</center>
 
