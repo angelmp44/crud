@@ -59,7 +59,7 @@
             </div>
            <br>
             <div>
-            <center><a class="btn btn-danger" href="agendaclientes.php">Regresar</a></center>
+            <center><a class="btn btn-danger" href="agendacompraproveedor.php">Regresar</a></center>
             </div> 
 
         
