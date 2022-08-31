@@ -29,7 +29,7 @@
 		<h1>Ingresa tu nombre</h1>
 		<br>
 		<form  action="buscarUsuario.php" method="get">
-		<input style="width :30%" name="buscador" placeholder="Buscar por documento" class="form-control">
+		<input style="width :30%" name="buscador" placeholder="Buscar por nombre" class="form-control">
 			<br>
 		
 			<input type=submit value="Buscar"  class="btn btn-outline-danger">
