@@ -74,40 +74,6 @@
   <img src="../CSS/img/inicio77.jpg" style="height:350px;" alt="">
 </div> 
 
-<!---------------------- Servicios --------------------------->
-
-  <div class="servicios">
-        <h1 style="text-align:left; font-size: 25px; margin-top: 15px; margin-left: 30px;"> Sobre nosotros </h1>
-      <div class="card-group">
-            <div class="card border-dark" style="width: 15%; margin-left: 10px; margin-top: 20px; text-align: center">
-                <div class="card-header">Nuestros proveedores</div>
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Calidad</h5>
-                  <p class="card-text">
-                      Nuestros productos son de la mejor calidad, por ello todos nuestros proveedores estan
-                      certificados lo que garantiza un exelente rendimiento de los mismos.
-                  </p>
-                </div>
-            </div>
-            <div class="card border-dark" style="width: 15%;  margin-top: 20px; text-align: center">
-                <div class="card-header">Envios</div>
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Confiabilidad</h5>
-                  <p class="card-text">Garantizamos la llegada de sus productos a la puerta de su casa o empresa</p>
-                </div>
-            </div>
-            <div class="card border-dark" style="width: 15%; margin-top: 20px; margin-right: 10px; text-align: center">
-                <div class="card-header">Nuestros clientes</div>
-                <div class="card-body text-dark">
-                  <h5 class="card-title">Eficiencia</h5>
-                  <p class="card-text">Nuestros clientes saben que son lo primero para nosotros, por ello confian en nuestros productos y servicios
-                      por encima de otros competidores.
-                  </p>
-                </div>                
-            </div> 
-     </div>
-  </div>
-
       
 
 <!---------------------- Productos y Servicios 1 -------------------------->
@@ -143,10 +109,46 @@
   </div>  
 </div>
 
+<!---------------------- Servicios --------------------------->
+
+<div class="servicios">
+        <h1 style="text-align:left; font-size: 25px; margin-top: 15px; margin-left: 30px;"> Sobre nosotros </h1>
+      <div class="card-group">
+            <div class="card border-dark" style="width: 15%; margin-left: 10px; margin-top: 20px; text-align: center">
+                <div class="card-header">Nuestros proveedores</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Calidad</h5>
+                  <p class="card-text">
+                      Nuestros productos son de la mejor calidad, por ello todos nuestros proveedores estan
+                      certificados lo que garantiza un exelente rendimiento de los mismos.
+                  </p>
+                </div>
+            </div>
+            <div class="card border-dark" style="width: 15%;  margin-top: 20px; text-align: center">
+                <div class="card-header">Envios</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Confiabilidad</h5>
+                  <p class="card-text">Garantizamos la llegada de sus productos a la puerta de su casa o empresa</p>
+                </div>
+            </div>
+            <div class="card border-dark" style="width: 15%; margin-top: 20px; margin-right: 10px; text-align: center">
+                <div class="card-header">Nuestros clientes</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title">Eficiencia</h5>
+                  <p class="card-text">Nuestros clientes saben que son lo primero para nosotros, por ello confian en nuestros productos y servicios
+                      por encima de otros competidores.
+                  </p>
+                </div>                
+            </div> 
+     </div>
+  </div>
+
+
+
 <!---------------------- Formulario --------------------------->
 <h1 style="text-align:center; font-size: 25px; margin-top: 50px; margin-left: 30px;"> Solicita asesoría </h1>
 <div style="display: flex; align-items: center; margin-left: 325px; margin-bottom: 20px; margin-right: 325px; border-radius: 15px; border: 1px solid rgb(177, 177, 177); text-align: center; padding: 10px">
-  <form action="./validar_asesoria.php" method="post" style="width : 100%; margin:auto" class="row g-3 needs-validation" novalidate>
+  <form action="../Formularios/validar_asesoria.php" method="post" style="width : 100%; margin:auto" class="row g-3 needs-validation" >
  <div class="row">
   <div class="col-md-6">
     <label for="validationCustom01" class="form-label">Nombre</label>

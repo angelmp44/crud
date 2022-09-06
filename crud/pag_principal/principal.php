@@ -83,7 +83,7 @@
 -->
 
 <!---------------------- Inicio --------------------------->
-<h4 style = "text-align: center;">Encuentra el producto indicado para tí</h4>
+<h4 style = "text-align: center;">Inicia sesión y encuentra el producto indicado para tí</h4>
 <div style = "text-align: center;">
   <img src="../CSS/img/img33.PNG" style="height:310px;" alt="">
 </div> 
@@ -92,7 +92,7 @@
 <!---------------------- Servicios --------------------------->
 
     <div class="servicios">
-        <h1 style="text-align:left; font-size: 25px; margin-top: 15px; margin-left: 30px;"> Frecuentes </h1>
+        <h1 style="text-align:left; font-size: 25px; margin-top: 15px; margin-left: 30px;"> Sobre nosotros </h1>
         <div class="card-group">
             <div class="card border-dark" style="width: 15%; margin-left: 10px; margin-top: 20px; text-align: center">
                 <div class="card-header">Sobre nuestros proveedores</div>
@@ -100,7 +100,7 @@
                   <h5 class="card-title">Calidad</h5>
                   <p class="card-text">
                       Nuestros productos son de la mejor calidad, por ello todos nuestros proveedores estan
-                      certificados lo que garantiza un exelente rendimiento de los mismos.
+                      certificados lo que garantiza un excelente rendimiento de los mismos.
                   </p>
                 </div>
             </div>
@@ -118,17 +118,11 @@
                   <p class="card-text">Nuestros clientes saben que son lo primero para nosotros, por ello confian en nuestros productos y servicios
                       por encima de otros competidores.
                   </p>
-                </div>
-
-                            
+                </div>                       
         </div>  
-
             </div>
           </div>
-  </div>
-       
-              
-         
+  </div>       
         </div>
 
 <!--banner---->
