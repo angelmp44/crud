@@ -32,7 +32,7 @@
  
 <!---------------------- Barra de navegación -------------------------->
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: rgb(223, 222, 222);">
           
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,7 @@
         </div>
       </nav>
 
-<!--Inicio-->
+<!--Inicio
 <div class="card mb-1;  " style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;">
     <img src="../CSS/img/inicioCliente.jpg" style="height: 480px" class="card-img-top; "  >
     <div class="card-body">
@@ -68,6 +68,11 @@
       <p class="card-text"><small class="text-muted">H&D CONSTRUEQUIPOS</small></p>
     </div>
 </div>
+-->
+<h4 style="text-align: center;">Bienvenido, aquí encontrarás más información</h4>
+<div style = "text-align: center;">
+  <img src="../CSS/img/inicio77.jpg" style="height:350px;" alt="">
+</div> 
 
 <!---------------------- Servicios --------------------------->
 
@@ -201,6 +206,19 @@
           </div>   
           <div class="card-header" style = "background-color: rgb(114, 109, 109); padding: 15px"></div>             
       </div> 
+</div>
+
+<!--info---->
+<div class="card" 
+style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;">
+
+  <div class="card-body">
+  <h5 class="card-title">Florencia, Caquetá</h5>
+      <p class="card-text">Contáctanos para obtener servicio personalizado</p>
+      <p class="card-text">Teléfono: +57 322 387 7590</p>
+      <p class="card-text">Correo electrónico: corporativo@h&dconstruequipos.net</p>
+      <p class="card-text"><small class="text-muted">H&D CONSTRUEQUIPOS</small></p>
+  </div>
 </div>
 
 </body>

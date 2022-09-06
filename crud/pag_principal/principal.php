@@ -9,7 +9,7 @@
    
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet"> 
-
+<!-- enlace para iconos--->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -33,7 +33,7 @@
  
 <!---------------------- Barra de navegación -------------------------->
     <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-color: rgb(223, 222, 222);">
          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -70,15 +70,24 @@
         </div>
       </nav>
 
-<!--Inicio-->
+<!----------------------Inicio--------------------
+
 <div class="card mb-3;  " style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;" >
-    <img src="../CSS/img/inicio77.jpg" class="card-img-top;"   >
+    <img src="../CSS/img/img11.PNG" class="card-img-top;">
     <div class="card-body">
       <h5 class="card-title">Florencia, Caqueta</h5>
       <p class="card-text">Contactanos para obtener servicio personalizado</p>
       <p class="card-text"><small class="text-muted">H&D CONSTRUEQUIPOS</small></p>
     </div>
 </div>
+-->
+
+<!---------------------- Inicio --------------------------->
+<h4 style = "text-align: center;">Encuentra el producto indicado para tí</h4>
+<div style = "text-align: center;">
+  <img src="../CSS/img/img33.PNG" style="height:310px;" alt="">
+</div> 
+
 
 <!---------------------- Servicios --------------------------->
 
@@ -122,13 +131,26 @@
          
         </div>
 
+<!--banner---->
+<div style = "text-align: center;">
+  <img src="../CSS/img/img11.PNG" alt="">
+</div> 
 
+<!--info---->
+<div class="card" 
+style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;">
 
-<!---------------------- Pie de página --------------------------->
-
-
+  <div class="card-body">
+  <h5 class="card-title">Florencia, Caquetá</h5>
+      <p class="card-text">Contáctanos para obtener servicio personalizado</p>
+      <p class="card-text">Teléfono: +57 322 387 7590</p>
+      <p class="card-text">Correo electrónico: corporativo@h&dconstruequipos.net</p>
+      <p class="card-text"><small class="text-muted">H&D CONSTRUEQUIPOS</small></p>
+  </div>
+</div>
 
 </body>
+<!------------------- Pie de página --------------------------->
 <!-- Footer-->
 <?php require "../partes/footerpp.html" ?>
 <!-- Footer-->

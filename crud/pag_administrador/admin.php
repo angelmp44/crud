@@ -76,7 +76,7 @@
         </div>
       </nav>
 
-<!--Inicio-->
+<!--Inicio-
 <div class="card mb-3;  " style="margin-left: 10px; margin-right: 10px;  margin-top: 5px; border-radius: 15px;">
    
     <div class="card-body">
@@ -87,6 +87,23 @@
       
       <p class="card-text"><small class="text-muted">Panel de administrador</small></p>
     </div>
+</div>
+-->
+<!--titulo---->
+<h4 style="text-align: center" class="card-title">Bienvenido</h4>
+
+
+<!--imagen---->
+<div style = "text-align: center;">
+  <img src="../CSS/img/img44.png" alt="" style="height: 300px;">
+</div> 
+
+<!--info---->
+<div class="card" 
+style="margin-left: 10px; margin-right: 10px; margin-top: 5px; border-radius: 15px;">
+  <div class="card-body">
+      <p class="card-text"><small class="text-muted">Panel de administrador</small></p>
+  </div>
 </div>
 
 <!---------------------- Servicios --------------------------->

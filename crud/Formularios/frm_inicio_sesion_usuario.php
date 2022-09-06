@@ -12,25 +12,18 @@
     <link rel="stylesheet" type="text/css" href="../CSS/styles_frm_inicio_sesion.css">
     <title>Iniciar Sesión | H&D Construequipos</title>
     <link rel="shortcut icon" href="../CSS/img/Logo.png">
-
-
-   
-
-<!---------------------- Header-------------------------->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
+<!---------------------- Header-------------------------->
 <?php require "../partes/header.html" ?>
 
 <!---------------------- Header-------------------------->
 </head>
 
 <body>
-    <section class="titulo">
-        <h1>H&D Construequipos</h1>
- 
-    </section>
+
     <form  action="../Formularios/validar_login_usuario.php" method="post" class="form-register">
         <h1>Iniciar Sesión</h1>
         <input class="controls" type="text" name="usuario" placeholder="Usuario">     
@@ -43,9 +36,6 @@
         <br>
         <p><a class="btn btn-outline-danger" href="../pag_principal/principal.php">Volver</a></p>
     </form> 
-
-
-
 
 </body>
 <!-- Footer-->
