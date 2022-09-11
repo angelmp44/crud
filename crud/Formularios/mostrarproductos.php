@@ -27,7 +27,7 @@
 		<table class="table"> 
 			<thead>
 				<tr>
-					<th>id del producto</th>
+					<th>Código del producto</th>
 					<th>Código del proveedor</th>
 					<th>Nombre del producto</th>
 					<th>Tipo del producto</th>
