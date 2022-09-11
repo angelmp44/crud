@@ -32,6 +32,10 @@
 
      
             <legend class="subtitulo">Registro de Proveedor</legend> 
+            <div>
+                <label class="etiqueta">Código proveedor</label>
+                <input class="controls" type="number" name="id_proveedor" placeholder="Ingresa el código del proveedor">
+            </div>
 
             <div>
                 <label class="etiqueta">Nombre</label>

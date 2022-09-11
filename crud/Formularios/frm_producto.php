@@ -37,6 +37,10 @@
             
             <p><legend class="subtitulo">Registrar Producto</legend></p>
             <br>
+            <div>
+                <label class="etiqueta">Código del producto</label>
+                <input class="controls" type="text" name="id_producto" placeholder="Ingresa el código del producto">
+            </div>
 
             <div>
                 <label class="etiqueta">Código del proveedor</label>

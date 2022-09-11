@@ -5,6 +5,7 @@ extract($_REQUEST);
 $objConexion = conectarse();
 
 /*creacion de variables*/
+$idProducto = $_REQUEST['id_producto'];
 $idProveedor = $_REQUEST['id_proveedor'];
 $nombreProducto = $_REQUEST['nombre_producto'];
 $tipoProducto = $_REQUEST['tipo_producto'];
@@ -13,17 +14,17 @@ $precioVenta = $_REQUEST['precio_venta'];
 $precioAlquiler = $_REQUEST['precio_alquiler_dia'];
 
 
-$sql = "INSERT INTO producto (id_proveedor, nombre_producto, tipo_producto, cant_producto, 
+$sql = "INSERT INTO producto (id_producto, id_proveedor, nombre_producto, tipo_producto, cant_producto, 
                                     precio_venta, precio_alquiler_dia)
 
-        VALUES ('$idProveedor', '$nombreProducto', 
+        VALUES ('$idProducto','$idProveedor', '$nombreProducto', 
                 '$tipoProducto', '$cantProducto', 
                 '$precioVenta', '$precioAlquiler') ";
 
 // verificar que el proveedor ingresado exista
 $sql2 = "SELECT * FROM proveedor WHERE id_proveedor =  '$idProveedor' "; 
 
-if(empty($cantProducto)|| empty($tipoProducto) || empty($nombreProducto)
+if(empty($idProducto)|| empty($cantProducto)|| empty($tipoProducto) || empty($nombreProducto)
         || empty($idProveedor)){
 
     echo "<script>
@@ -32,6 +33,7 @@ if(empty($cantProducto)|| empty($tipoProducto) || empty($nombreProducto)
           </script>";
 }
 else {
+    // verificar que el proveedor ingresado exista
     $cantidad_registros = mysqli_num_rows($objConexion->query($sql2));  
     /* si cantidad_registros es por lo menos 1 entonces existe el proveedor y se realiza 
     el registro de producto */

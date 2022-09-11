@@ -32,11 +32,11 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 <form action="<?='actualizarproveedor.php?id_proveedor='.($fila["id_proveedor"])?>" method="post" class="formulario">
 	
-<P><legend class="subtitulo">Registrar Proveedor</legend></P> 
+<P><legend class="subtitulo">Actualizar Proveedor</legend></P> 
 <br>
-<div>
+            <div>
                 <label class="etiqueta">id del proveedor</label>
-                <input class="controls" type="number" name="doc_cliente" placeholder="Ingresa el documento del proveedor" value="<?php echo $fila['id_proveedor'] ?>" >
+                <input class="controls" type="number" name="id_proveedor" placeholder="Ingresa el código del proveedor" value="<?php echo $fila['id_proveedor'] ?>" >
             </div>
 
 
