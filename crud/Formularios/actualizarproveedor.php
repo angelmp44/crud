@@ -14,14 +14,14 @@ $objConexion = conectarse();
 		$correo_proveedor=$_POST['correo_proveedor'];
         $direccion_proveedor=$_POST['direccion_proveedor'];
 
-		// crear nuevo registro de proveedor con los datos nuevos (solo si el id:proveedor es nuevo)
+		// crear nuevo registro de proveedor con los datos nuevos (solo si el id_proveedor es nuevo)
 		$sql1 = "INSERT INTO proveedor 
 		(id_proveedor, nombre_proveedor, telefono_proveedor, correo_proveedor, direccion_proveedor)
         VALUES 
 		('$id_proveedorNuevo', '$nombre_proveedor', '$telefono_proveedor', 
 		'$correo_proveedor', '$direccion_proveedor' )";
 	
-		// actualizacion de proveedor (solo si el id:proveedor es el mismo)
+		// actualizacion de proveedor (solo si el id_proveedor es el mismo)
 		$sql2 ="UPDATE `proveedor` SET 
 			`id_proveedor` = '$id_proveedorNuevo',
 			`nombre_proveedor` = '$nombre_proveedor', 
@@ -30,7 +30,8 @@ $objConexion = conectarse();
             `direccion_proveedor` = '$direccion_proveedor'
 			 
 			WHERE `proveedor`.`id_proveedor` = $id_proveedorAntiguo";
-
+			
+		// actualizacion de tablas afectadas por la actualizacion
 		// actualizacion de productos
 		$sql3 = "UPDATE producto 
 				 SET id_proveedor = '$id_proveedorNuevo'

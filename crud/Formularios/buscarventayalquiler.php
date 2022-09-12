@@ -44,8 +44,15 @@
 			</thead>
   <?php
     $buscador = $_GET['buscador'];
-    $sql = "SELECT * FROM `venta_y_alquiler` WHERE `doc_cliente` 
-            LIKE '%$buscador%' OR `doc_admin` LIKE '%$buscador%';";
+	if($buscador == ""){
+		echo "<script>
+			alert('Ingresa una fecha válida para buscar');
+			window.location='./agendaventayalquiler.php'
+  			</script>";
+	}
+    $sql = "SELECT * FROM `venta_y_alquiler` 
+			WHERE `fecha` LIKE '%$buscador%' AND  `valor_venta` != '-1' ;";
+
     $result=mysqli_query($conexion,$sql);
     while($fila=mysqli_fetch_array($result)){
   ?>

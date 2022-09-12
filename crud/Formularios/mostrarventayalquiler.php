@@ -31,7 +31,7 @@
 		<table class="table">
 			<thead>
 				<tr>
-					<th>id</th>
+					<th>id venta</th>
 					<th>Fecha</th>
 					<th>Documento Cliente</th>
 					<th>Documento asesor</th>
@@ -43,7 +43,7 @@
 				</tr>
 			</thead>
 	<?php
-		$sql="SELECT * FROM `venta_y_alquiler`";
+		$sql="SELECT * FROM `venta_y_alquiler` WHERE `valor_venta` != '-1' ";
 		$result=mysqli_query($conexion,$sql);
 
 	while ($fila=mysqli_fetch_array($result)) {

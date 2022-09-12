@@ -36,7 +36,8 @@
 		<h1>Gestión de Ventas y Alquileres</h1>
 		<br>
 		<form  action="buscarventayalquiler.php" method="get">
-		<input style="width :50%" name="buscador" placeholder="Buscar por doc de cliente o asesor" class="form-control">
+		<input style="width :50%" name="buscador" 
+		placeholder="Buscar fecha (aaaa-mm-dd)" class="form-control">
 			<br>
 			<br>
 			<input type=submit value="Buscar" class="btn btn-outline-danger">

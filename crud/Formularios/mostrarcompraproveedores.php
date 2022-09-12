@@ -28,10 +28,10 @@
 	
 		<table class="table">
 			<thead>
-				<tr>
+				<tr> 
 					<th>id compra</th>
-					<th>id del proveedor</th>
-					<th>id  del producto</th>
+					<th>Código del proveedor</th>
+					<th>Código del producto</th>
 					<th>Cantidad del producto</th>
 					<th>Valor de la compra</th>
                     <th>Acciones</th>

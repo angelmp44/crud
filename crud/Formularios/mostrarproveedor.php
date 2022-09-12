@@ -28,7 +28,7 @@
 		<table class="table">
 			<thead>
 				<tr>
-					<th>id</th>
+					<th>Código del proveedor</th>
 					<th>Nombre</th>
 					<th>Teléfono</th>
 					<th>Email</th>

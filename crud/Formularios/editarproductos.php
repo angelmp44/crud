@@ -32,17 +32,17 @@ $conexion =new mysqli("localhost","root","","construequipos")
 
 <form action="<?='actualizarproductos.php?id_producto='.($fila["id_producto"])?>" method="post" class="formulario">
 	
-<P><legend class="subtitulo">Registrar Producto</legend></P> 
+<P><legend class="subtitulo">Actualizar Producto</legend></P> 
 <br>
 <div>
-                <label class="etiqueta">id del producto</label>
+                <label class="etiqueta">Código del producto</label>
                 <input class="controls" type="number" name="id_producto" placeholder="Ingresa el id del producto" value="<?php echo $fila['id_producto'] ?>" >
             </div>
 
             <div>
                 <label class="etiqueta">Código del proveedor</label>
                 <input class="controls" type="text" name="id_proveedor" placeholder="Ingresa el código del proveedor" value="<?php echo $fila['id_proveedor'] ?>">
-            </div>
+            </div> 
 
             <div>
                 <label class="etiqueta">Nombre del producto</label>
@@ -54,8 +54,8 @@ $conexion =new mysqli("localhost","root","","construequipos")
                 <select class= "tipo_producto" name="tipo_producto" value="<?php echo $fila['tipo_producto'] ?>">
 
                     <option>Alquiler</option>
-                    
                     <option>Venta</option>
+                    <option selected = "selected">Seleccionar</option>
                               
                 </select>
 
