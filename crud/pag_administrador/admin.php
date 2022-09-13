@@ -68,8 +68,8 @@
                 </ul>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <form action = "../Formularios/buscar_menu.php" class="d-flex" role="search" >
+              <input class="form-control me-3 " name="buscador" type="search" placeholder="Buscar... 'Ventas' " aria-label="Search">
               <button class="btn btn-danger" type="submit">Buscar</button>
             </form>
           </div>

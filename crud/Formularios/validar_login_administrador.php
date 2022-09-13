@@ -2,13 +2,13 @@
 
         $conexion = mysqli_connect("localhost", "root", "", "construequipos");
 
-        $usuario = $_POST["usuario"];
+        $correo = $_POST["correo"];
         $contraseña = $_POST["contraseña"];
        
-        $sql = "SELECT * FROM administrador WHERE nombre_admin= '$usuario' AND 
+        $sql = "SELECT * FROM administrador WHERE correo_admin= '$correo' AND 
                                                   contraseña_admin= '$contraseña' "; 
 
-        $resultado=mysqli_query($conexion, $sql);  
+        $resultado=mysqli_query($conexion, $sql);   
 
         $cantidad_registros = mysqli_num_rows($resultado);  /* devuelve la cantidad de registros encontrados */
 
@@ -20,7 +20,7 @@
 
             /*muestra la ventana emergente*/
             echo "<script>
-                   alert('Usuario o contrasena incorrectos');
+                   alert('correo o contrasena incorrectos');
                    window.location='./frm_inicio_sesion_admin.php'
                  </script>";
        }

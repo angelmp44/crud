@@ -2,10 +2,10 @@
 
         $conexion = mysqli_connect("localhost", "root", "", "construequipos");
 
-        $usuario = $_POST["usuario"];
+        $correo= $_POST["correo"]; 
         $contraseña = $_POST["contraseña"]; 
        
-        $sql = "SELECT * FROM usuario WHERE nombre_usuario= '$usuario' AND 
+        $sql = "SELECT * FROM usuario WHERE correo_usuario= '$correo' AND 
                                                   contraseña_usuario= '$contraseña' "; 
 
         $resultado=mysqli_query($conexion, $sql);  
@@ -20,7 +20,7 @@
 
              /*muestra la ventana emergente*/
              echo "<script>
-                    alert('Usuario o contrasena incorrectos');
+                    alert('Correo o contrasena incorrectos');
                     window.location='./frm_inicio_sesion_usuario.php'
                   </script>";
         }

@@ -26,7 +26,7 @@
 
     <form  action="../Formularios/validar_login_usuario.php" method="post" class="form-register">
         <h1>Iniciar Sesión</h1>
-        <input class="controls" type="text" name="usuario" placeholder="Usuario">     
+        <input class="controls" type="email" name="correo" placeholder="Correo electrónico">     
         <input class="controls" type="password" name="contraseña" placeholder="Contraseña">     
         
         <br>        

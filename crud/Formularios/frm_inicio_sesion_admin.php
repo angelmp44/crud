@@ -9,7 +9,7 @@
 <!---------------------- Header-------------------------->
 <head>
 
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,7 +27,7 @@
     <form  method="post" action="../Formularios/validar_login_administrador.php" class="form-register"> 
         <h1>Iniciar Sesión</h1>
 
-        <input class="controls" type="text" name="usuario" placeholder="Usuario">     
+        <input class="controls" type="email" name="correo" placeholder="Correo institucional">     
         <input class="controls" type="password" name="contraseña" placeholder="Contraseña">   
         <br>       
         <p><a class="btn btn-outline-danger" href="../Formularios/frm_registro_administrador.php">Registrarse</a></p>

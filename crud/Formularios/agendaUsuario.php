@@ -26,10 +26,10 @@
 <center>
 		<br>
 		
-		<h1>Ingresa tu nombre</h1>
+		<h1>Ingresa tu correo registrado</h1>
 		<br>
 		<form  action="buscarUsuario.php" method="get">
-		<input style="width :30%" name="buscador" placeholder="Buscar por nombre" class="form-control">
+		<input style="width :30%" name="buscador" placeholder="Buscar" class="form-control">
 			<br>
 		
 			<input type=submit value="Buscar"  class="btn btn-outline-danger">

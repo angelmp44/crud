@@ -33,13 +33,12 @@
     $buscador = $_GET['buscador'];
     if(empty($buscador)){
         echo "<script>
-                    alert('Ingresa un nombre válido');
+                    alert('Ingresa un correo válido');
                     window.location='./agendaUsuario.php'
               </script>";
     }
     else{
-        $sql = "SELECT * FROM `usuario` WHERE `nombre_usuario` 
-        LIKE '%$buscador%' ";
+        $sql = "SELECT * FROM `usuario` WHERE `correo_usuario` = '$buscador' ";
         $result=mysqli_query($conexion,$sql);
         while($fila=mysqli_fetch_array($result)){
     

@@ -41,8 +41,7 @@
               </script>";
     }
     else{
-        $sql = "SELECT * FROM `administrador` WHERE `doc_admin` 
-        LIKE '%$buscador%' ";
+        $sql = "SELECT * FROM `administrador` WHERE `doc_admin` = '$buscador' ";
         $result=mysqli_query($conexion,$sql);
         while($fila=mysqli_fetch_array($result)){
     
