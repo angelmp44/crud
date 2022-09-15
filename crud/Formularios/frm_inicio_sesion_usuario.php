@@ -26,11 +26,12 @@
 
     <form  action="../Formularios/validar_login_usuario.php" method="post" class="form-register">
         <h1>Iniciar Sesión</h1>
-        <input class="controls" type="email" name="correo" placeholder="Correo electrónico">     
+        <input class="controls" type="email" name="correo" placeholder="Correo electrónico">      
         <input class="controls" type="password" name="contraseña" placeholder="Contraseña">     
         
         <br>        
-        <p><a class="btn btn-outline-danger" href="../Formularios/frm_registro_usuario.php">Registrarse</a></p>
+        <p><a style = "font-size: 15px;" href="../Formularios/frm_registro_usuario.php">Registrarse</a></p>
+        <p><a style = "font-size: 15px;" href="../SendEmail/passwordRecover.php">Olvidé mi contraseña</a></p>
         <br>
         <center><input class="btn btn-danger" type="submit" name="" value="INICIAR SESION"> </center> 
         <br>
